@@ -107,6 +107,58 @@ Como Scrum Master, fiquei encarregado de acompanhar o andamento das tarefas, con
 
 ---
 
+## Alplaca - 2024 - 2º Semestre  
+
+## Empresa Parceira
+O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Giuliano Bertoti no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma aplicação desktop integrada a modelos de IA executados localmente.
+
+## Problema
+O controle e registro de veículos frequentemente dependem de processos manuais lentos e sujeitos a falhas, ou de serviços de Inteligência Artificial em nuvem de terceiros. Essa dependência externa acarreta custos recorrentes com consumo de APIs, exige conexão continua com a internet e levanta preocupações quanto à privacidade e segurança dos dados transmitidos a servidores externos.
+
+Para solucionar esse cenário, era necessário a criação de uma ferramenta capaz de automatizar a leitura e identificação de placas de forma local e segura, processando as imagens diretamente na máquina do usuário e persistindo os dados de forma estruturada.
+
+## Solução
+A equipe desenvolveu o **Alplaca**, uma aplicação desktop desenvolvida em Java com interface gráfica integrada ao banco de dados MySQL e a modelos de Inteligência Artificial executados localmente via Ollama. O sistema automatiza o reconhecimento e a extração de caracteres de placas veiculares por meio de visão computacional, eliminando a dependência de serviços externos ou conexão com a internet.
+
+Além da inferência e leitura das placas, o software disponibiliza um módulo de gerenciamento de dados (CRUD) completo, permitindo cadastrar, consultar, atualizar e remover registros de veículos, além de oferecer busca por placas com filtros, navegação entre registros e armazenamento das imagens associadas.
+
+## Repositório no GitHub
+[Alplaca (Bug Busters)](https://github.com/Bug-Busters-F/alplaca)
+
+## Tecnologias Utilizadas
+- **Java:** Desenvolvimento da aplicação desktop, regras de negócio e integração dos componentes do sistema.
+- **Java Swing:** Construção da interface gráfica desktop para interação com o usuário.
+- **MySQL:** Banco de dados relacional empregado para o armazenamento de veículos, placas e histórico de registros.
+- **Ollama:** Execução local de modelos multimodais de IA para reconhecimento óptico de caracteres e análise de imagens.
+- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
+- **Figma:** Prototipagem e planejamento visual das telas para guiar o desenvolvimento da interface gráfica.
+
+## Contribuições Pessoais
+No projeto, atuei como desenvolvedor, focando na integração dos modelos de Inteligência Artificial à aplicação e na implementação de funcionalidades do sistema.
+
+Minha principal atuação técnica foi conectar o **Ollama** à aplicação em **Java** utilizando a biblioteca **ollama4j**. Realizei testes práticos para avaliar e selecionar o modelo que apresentasse o melhor equilíbrio entre tempo de inferência e precisão na leitura das placas. Além disso, elaborei e refinei a engenharia de prompts enviada junto às imagens para garantir a extração dos caracteres no padrão exigido pelo banco de dados.
+
+Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funcionalidade de busca com filtros para consulta de veículos cadastrados e auxiliando no ajuste visual dos componentes da tela.
+
+## Hard Skills
+- **Java:** Sei fazer com ajuda: desenvolvimento da lógica da aplicação e integração de bibliotecas com apoio da documentação e IDE.
+- **Java Swing:** Sei fazer com ajuda: construção de telas, componentes visuais e filtros utilizando o designer gráfico do IntelliJ.
+- **Ollama e ollama4j:** Sei fazer com autonomia: integração de modelos de IA locais ao Java, testes comparativos de modelos multimodais e engenharia de prompts.
+- **MySQL:** Sei fazer com autonomia: modelagem e persistência de dados de veículos, placas e histórico.
+- **Git e GitHub:** Sei fazer com autonomia: versionamento de código, gerenciamento de branches e resolução de conflitos.
+- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa nas cerimônias ágeis, planejamento e cumprimento das entregas das sprints.
+
+## Soft Skills
+- **Comunicação e Alinhamento:** Mantive diálogo constante com os outros desenvolvedores para definir como os dados extraídos pela IA seriam repassados para a interface e para o banco de dados, alinhando formatos e evitando inconsistências no fluxo da aplicação.
+
+- **Pensamento Crítico e Análise:** Exercitei a capacidade analítica ao conduzir testes comparativos entre diferentes modelos de visão computacional, avaliando taxa de acerto na leitura, tempo de resposta e consumo de memória da máquina.
+
+- **Resolução de Problemas e Adaptabilidade:** Lidei com desafios na comunicação entre o Ollama e o Java via `ollama4j` e com variações nas respostas da IA, iterando na engenharia de prompts e no tratamento de retornos até alcançar saídas consistentes e estruturadas.
+
+- **Trabalho em Equipe e Colaboração:** Colaborei ativamente na integração entre o módulo de IA, a persistência no MySQL e a interface em Java Swing, auxiliando na implementação dos filtros e garantindo a sincronia do código no repositório.
+
+---
+
 ## Meus Projetos
 
 ### Em 2021-2
