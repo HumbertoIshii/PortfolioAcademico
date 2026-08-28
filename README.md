@@ -159,6 +159,59 @@ Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funciona
 
 ---
 
+## Alfalog - 2025 - 1º Semestre
+
+## Empresa Parceira
+O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Marcus Nascimento, coordenador do curso de Logística, no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas da equipe a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma plataforma web voltada à análise e visualização de dados de comércio exterior.
+
+## Problema
+A análise de dados de importação e exportação no Brasil é prejudicada pelo grande volume e pela fragmentação das bases públicas disponibilizadas pelo governo, como as do MDIC e Comex Stat. Por estarem em formato bruto e dispersos em arquivos extensos, o processo de consulta manual torna-se lento e complexo, dificultando a identificação de padrões comerciais, gargalos logísticos e o acompanhamento do desempenho econômico por estados e municípios.
+
+Para solucionar esse cenário, era necessária a criação de uma plataforma centralizada capaz de tratar, organizar e apresentar essas informações de forma visual e interativa, permitindo a aplicação de filtros dinâmicos para apoiar a tomada de decisão baseada em dados.
+
+## Solução
+A equipe desenvolveu a **Alfalog**, uma aplicação web voltada para a análise e visualização de dados de comércio exterior brasileiro. A plataforma centraliza e estrutura os dados públicos do MDIC/Comex Stat em um banco de dados relacional, transformando grandes volumes de registros brutos de importação e exportação em dashboards analíticos e gráficos interativos para facilitar a interpretação das informações.
+
+Além da visualização consolidada da balança comercial, o sistema conta com filtros avançados por código NCM, estados, municípios, vias de transporte e períodos históricos (2014 a 2024), além de recursos de previsão de tendências históricas. A interface foi projetada com foco em usabilidade e organização visual, permitindo aos usuários cruzar dados e exportar relatórios para apoiar a tomada de decisão no setor logístico.
+
+## Repositório no GitHub
+[Alfalog (Bug Busters)](https://github.com/Bug-Busters-F/Alfalog)
+
+## Tecnologias Utilizadas
+- **React e TypeScript:** Desenvolvimento da interface web, componentização dinâmica e renderização dos dashboards analíticos.
+- **Tailwind CSS:** Estilização da interface com foco em responsividade e padronização visual.
+- **ApexCharts:** Construção dos gráficos interativos e painéis visuais para análise dos dados.
+- **Python (Flask):** Desenvolvimento da API, gerenciamento de rotas e processamento/ETL das bases de dados.
+- **MySQL:** Banco de dados relacional empregado para armazenar, estruturar e consultar o grande volume de dados de comércio exterior.
+- **AWS:** Hospedagem da aplicação na nuvem para manter o sistema online e disponível.
+- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
+
+## Contribuições Pessoais
+No projeto, atuei como desenvolvedor full-stack, trabalhando tanto na construção das regras de negócio e rotas no back-end quanto na implementação de componentes e consumo de dados no front-end.
+
+No back-end, utilizando **Python (Flask)** e **MySQL**, fui o responsável por modelar a tabela de balança comercial vinculada às Unidades Federativas (UFs). Para automatizar o processamento dos dados históricos públicos do Comex Stat, desenvolvi uma rotina via linha de comando (`flask comex update balanca`) que lia os arquivos brutos, calculava o saldo comercial anual de cada estado (valor FOB de exportação menos FOB de importação) e salvava os dados estruturados no banco. Além disso, criei as rotas da API em Flask usando blueprints para fornecer os dados dos gráficos (como contagem de uso das alfândegas/URFs e séries temporais anuais) e os endpoints para os cards de desempenho dos estados.
+
+No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenvolvendo os componentes visuais dos cards de estados em alta e em queda e substituindo os dados estáticos (*mocks*) pela integração direta com a API. Também atuei na refatoração da página de relatórios de dados, ajustando a exibição dos gráficos de barras e a descrição dos filtros. Para resolver problemas de compartilhamento de filtros entre componentes na exportação de relatórios, implementei a Context API do React com o `ExportContextProvider`, garantindo que os dados selecionados pelo usuário fossem repassados corretamente na hora de gerar os arquivos.
+
+## Hard Skills
+- **Python (Flask):** Sei fazer com autonomia: criação de rotas e blueprints para APIs REST, desenvolvimento de comandos CLI para rotinas de processamento e lógica de cálculo da balança comercial.
+- **MySQL:** Sei fazer com autonomia: modelagem de tabelas relacionais vinculadas a UFs, criação de chaves e otimização de consultas para busca de dados históricos.
+- **React e TypeScript:** Sei fazer com autonomia: criação de componentes reutilizáveis, tipagem de dados, consumo de APIs REST e gerenciamento de estado com Context API.
+- **Tailwind CSS:** Sei fazer com autonomia: estilização de layouts responsivos e padronização visual de dashboards e relatórios.
+- **Git e GitHub:** Sei fazer com autonomia: controle de versionamento, fluxo de branches para features e correções, abertura de Pull Requests e resolução de conflitos.
+- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa no planejamento das sprints, divisão técnica de tarefas e cumprimento dos prazos de entrega.
+
+## Soft Skills
+- **Comunicação e Alinhamento Técnico:** Como atuei tanto no back-end quanto no front-end, mantive contato constante com a equipe para alinhar a estrutura das requisições e o formato das respostas em JSON da API. Isso garantiu que os dados da balança comercial e das URFs chegassem no formato correto para renderização nos gráficos, evitando retrabalho.
+
+- **Resolução de Problemas:** Na página de relatórios, identifiquei que os filtros selecionados pelo usuário se perdiam entre componentes isolados na hora da exportação. Para corrigir a falha, criei um provedor de contexto (`ExportContextProvider`) com a Context API, centralizando o estado dos filtros e normalizando a exportação.
+
+- **Visão Sistêmica:** Consegui conectar todo o fluxo da aplicação na prática: desde a importação e cálculo dos dados brutos no MySQL com Flask até a renderização dos gráficos e relatórios no React, entendendo o impacto de cada alteração em ambas as pontas do sistema.
+
+- **Trabalho em Equipe e Colaboração:** Participei ativamente do fluxo colaborativo no GitHub, revisando códigos em Pull Requests, sincronizando a branch `dev` com as branches de funcionalidades e auxiliando os colegas a resolver conflitos de merge durante as sprints.
+
+---
+
 ## Meus Projetos
 
 ### Em 2021-2
