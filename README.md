@@ -212,6 +212,66 @@ No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenv
 
 ---
 
+## ClassiPy - 2025 - 2º Semestre
+
+## Empresa Parceira
+O projeto foi desenvolvido em parceria com a **TecSys**, com atuação em Telecom e desenvolvimento de soluções para Telecom, Broadband, Broadcast, Embedded e Smart Grid, com foco em projetos sob medida. A empresa atuou como cliente externo, apresentando as necessidades reais do setor e validando as entregas da equipe a cada sprint, orientando o desenvolvimento de uma aplicação web voltada para a automação e padronização da classificação fiscal de produtos importados.
+
+## Problema
+A TecSys precisa importar componentes que não são fabricados nacionalmente para a produção de seus produtos e soluções customizadas. Nesse processo, a elaboração dos registros de importação e cadastros fiscais é altamente burocrática e suscetível a erros manuais. A rotina operacional exige a conferência detalhada de pedidos de compra em arquivos PDF para extrair e cruzar informações de cada produto, como Part Number, código NCM, descrição técnica, fabricante e país de origem. Por ser uma atividade manual e repetitiva, pequenas divergências ou omissões podem gerar inconsistências cadastrais, retenção de cargas pela Receita Federal, atrasos na cadeia de suprimentos e aplicação de multas.
+
+Para solucionar esse cenário, era necessária a criação de uma plataforma capaz de automatizar a leitura de documentos e sugerir a classificação fiscal dos produtos de forma inteligente, padronizando as informações e permitindo a exportação de dados estruturados para dar maior agilidade e segurança às operações aduaneiras.
+
+## Solução
+A equipe desenvolveu o **ClassiPy**, uma aplicação web voltada para a automação da classificação fiscal de produtos em processos de importação utilizando Inteligência Artificial. O sistema recebe documentos de compra em PDF, extrai automaticamente os Part Numbers dos itens e utiliza modelos de IA integrados para identificar e sugerir informações essenciais, como código NCM, descrição técnica, fabricante, país de origem e alíquota.
+
+Além da extração e classificação automática, a plataforma conta com uma interface intuitiva que permite ao usuário revisar, editar e validar manualmente as informações antes da confirmação. O sistema também oferece histórico de consultas com paginação, busca semântica com banco vetorial para aumentar a precisão das sugestões da IA e a exportação direta dos dados tratados em planilhas Excel formatadas no padrão exigido pela Receita Federal, reduzindo o tempo operacional e o risco de falhas nos registros aduaneiros.
+
+## Repositório no GitHub
+[ClassiPy (Bug Busters)](https://github.com/Bug-Busters-F/ClassiPy)
+
+## Tecnologias Utilizadas
+- **React e TypeScript:** Desenvolvimento da interface web da aplicação, com componentização e tipagem dos dados.
+- **Tailwind CSS:** Estilização da interface com foco em responsividade e padronização visual.
+- **Python e FastAPI:** Desenvolvimento da API, gerenciamento das rotas e processamento das requisições da aplicação.
+- **PostgreSQL:** Banco de dados relacional utilizado para armazenar e gerenciar os dados do sistema.
+- **ChromaDB:** Banco de dados vetorial utilizado para armazenar embeddings e realizar buscas semânticas.
+- **Ollama:** Integração e execução local dos modelos de Inteligência Artificial utilizados na classificação dos produtos.
+- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
+- **Slack:** Comunicação e alinhamento com o cliente.
+
+#### Contribuições Pessoais
+No projeto, atuei como Product Owner (PO) e desenvolvedor (dev), participando tanto da definição e validação das necessidades do cliente quanto do desenvolvimento da aplicação.
+
+Como PO, fiquei responsável por estar em contato com o cliente e tirar dúvidas da equipe de desenvolvimento sobre o processo da TecSys, principalmente sobre o ciclo de transformar uma ordem de pedido em PDF, contendo os Part Numbers, em um arquivo Excel com as informações exigidas pela empresa. Também participei do levantamento das informações que deveriam ser obtidas de cada Part Number, ajudando a definir quais dados deveriam ser extraídos, processados e apresentados no resultado final. Além disso, acompanhei o andamento do projeto, dando feedback ao cliente e validando principalmente as telas e o fluxo da aplicação.
+
+Na parte de desenvolvimento, atuei principalmente no back-end com **Python e FastAPI**, trabalhando na criação do serviço de classificação dos Part Numbers, que inclui a integração com o **Ollama**, os ajustes de prompts e o tratamento dos caracteres retornados pela IA. Também desenvolvi as ferramentas de **web scraping**, incluindo melhorias na busca de informações dos produtos, mecanismos de retry para novas tentativas e redução de ruido nas informações extraidas.
+
+No front-end, utilizando **React, TypeScript e Tailwind CSS**, trabalhei em melhorias no retorno visual da aplicação para o usuário, incluindo mensagens de erro, notificações com toast e modais para determinadas interações.
+
+## Hard Skills
+- **Python e FastAPI:** Sei fazer com autonomia: desenvolvimento de APIs, criação de serviços, processamento de dados e organização das regras de negócio.
+- **Ollama:** Sei fazer com autonomia: integração de modelos de IA locais, criação/ajuste de prompts e tratamento das respostas geradas pelos modelos.
+- **Playwright e Web Scraping:** Sei fazer com autonomia: criação de rotinas para buscar informações de produtos na web com Playwright, tratamento dos resultados e implementação de mecanismos de retry quando uma busca não retorna os dados esperados.
+- **React e TypeScript:** Sei fazer com autonomia: criação e alteração de componentes, integração com as funcionalidades do sistema e tratamento das interações da interface.
+- **Tailwind CSS:** Sei fazer com autonomia: estilização de componentes e ajustes de layout da aplicação.
+- **PostgreSQL:** Sei fazer com ajuda: criação e alteração de estruturas do banco e integração dos dados utilizados pelos serviços da aplicação.
+- **Git e GitHub:** Sei fazer com autonomia: versionamento do código, criação de branches, abertura e acompanhamento de Pull Requests e integração das alterações da equipe.
+- **Metodologia Scrum:** Sei fazer com autonomia: participação no planejamento das sprints, acompanhamento das atividades e atuação como Product Owner durante o desenvolvimento.
+
+## Soft Skills
+- **Comunicação e Alinhamento:** Como Product Owner, mantive contato direto com a TecSys para entender o processo aduaneiro e repassar essas informações para o time de desenvolvimento. Muitas decisões sobre quais dados extrair dos Part Numbers e como estruturar o fluxo da aplicação foram definidas a partir dessas conversas, evitando que a equipe implementasse algo que não atendia a necessidade do cliente.
+
+- **Visão de Negócio:** Para conseguir definir os requisitos do sistema, tive que entender o processo de ponta a ponta: como os funcionários da TecSys trabalhavam com os PDFs, quais campos preenchiam manualmente, o que a Receita Federal exigia e onde estavam os maiores riscos de erro. Sem esse entendimento, não seria possível traduzir o processo em algo que a IA conseguisse automatizar.
+
+- **Resolução de Problemas:** Durante o desenvolvimento, as buscas nem sempre retornavam os dados esperados e as respostas da IA vinham com formatos inconsistentes. Trabalhei diretamente nesses casos, adicionando mecanismos de retry no scraping, ajustando os prompts para limpar os caracteres problemáticos e tratando os retornos da IA antes de salvar no banco.
+
+- **Tomada de Decisão:** Como PO, fui responsável por aprovar as telas e o fluxo da aplicação a cada entrega. Isso exigiu avaliar o que estava sendo desenvolvido com base no que o cliente tinha mostrado, decidindo se o resultado correspondia ao processo real da TecSys ou se precisava de ajuste antes da próxima sprint.
+
+- **Trabalho em Equipe e Colaboração:** Atuei em duas frentes ao longo do projeto (PO e desenvolvedor) o que exigiu transitar entre as decisões de produto e a implementação técnica.Isso exigiu proximidade com os outros integrantes, tanto para validar as entregas quanto para contribuir com código.
+
+---
+
 ## Meus Projetos
 
 ### Em 2021-2
