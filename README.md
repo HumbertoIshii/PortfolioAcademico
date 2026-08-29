@@ -272,33 +272,85 @@ No front-end, utilizando **React, TypeScript e Tailwind CSS**, trabalhei em melh
 
 ---
 
-## Meus Projetos
+## ProDesk - 2026 - 1º Semestre  
 
-### Em 2021-2
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução, com título (nome atribuído pela equipe), entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+## Empresa Parceira
+O projeto foi desenvolvido em parceria com a **Pro4tech**, empresa que atua na área de tecnologia da informação, oferecendo soluções e serviços de suporte para empresas. A empresa participou do projeto como cliente, apresentando as necessidades relacionadas ao atendimento de suporte técnico e validando as entregas da equipe ao longo das sprints, simulando um cenário real de desenvolvimento de uma aplicação de Help Desk.
 
-[GIT](https://www.git.com)
+## Problema
+O atendimento de suporte técnico pode se tornar difícil de organizar quando os chamados são registrados por diferentes canais, como mensagens, e-mails ou outros meios de comunicação. Sem um sistema centralizado, a equipe de TI pode ter dificuldade para acompanhar as solicitações, identificar suas prioridades e manter o histórico dos atendimentos.
 
-#### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+Além disso, a falta de uma ferramenta específica dificulta o acompanhamento do status dos chamados e a comunicação entre os usuários e a equipe responsável. Para solucionar esse cenário, era necessária uma plataforma que centralizasse essas informações e facilitasse o gerenciamento dos chamados desde sua abertura até a conclusão do atendimento.
 
-#### Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
+## Solução
+A equipe desenvolveu o **ProDesk**, uma aplicação mobile de Help Desk voltada para centralizar o registro e o acompanhamento de chamados de suporte técnico. A plataforma permite que os usuários registrem solicitações, acompanhem seu andamento e mantenham a comunicação com a equipe responsável pelo atendimento.
 
-#### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+O sistema também conta com funcionalidades para gerenciamento de usuários, autenticação, recuperação de senha, organização dos chamados e gerenciamento das informações dos atendimentos. A aplicação foi desenvolvida com foco em facilitar o controle das solicitações e melhorar a comunicação entre os usuários e a equipe de suporte.
 
-#### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+## Repositório no GitHub
+[ProDesk (Bug Busters)](https://github.com/Bug-Busters-F/ProDesk)
 
-### Em 2022-1
-Mesmo formato
+## Tecnologias Utilizadas
+* **NestJS:** Desenvolvimento da API e implementação das regras de negócio.
+* **TypeScript:** Tipagem e desenvolvimento da aplicação.
+* **PostgreSQL:** Armazenamento e gerenciamento dos dados da aplicação.
+* **JWT:** Autenticação e controle de acesso dos usuários.
+* **Git e GitHub:** Controle de versões do código e colaboração entre os integrantes da equipe.
+* **Jira:** Gerenciamento das tarefas e acompanhamento das sprints.
+* **React Native:** Desenvolvimento da aplicação mobile.
 
-### Em 2022-2
-Mesmo formato
 
-### Em 2023-1
-Mesmo formato
 
-### Em 2023-2
-Mesmo formato
+### Contribuições Pessoais
+No projeto, atuei como desenvolvedor full-stack, trabalhando principalmente no módulo de triagem dos chamados e nas funcionalidades relacionadas ao atendimento.
+
+Minha principal atuação foi no desenvolvimento do módulo de triagem utilizando **NestJS** e **NLP.js**, para desenvolver o serviço responsável por analisar a descrição dos chamados e identificar a categoria mais adequada. Também desenvolvi o módulo responsavel pelas categorias, integrado ao **MongoDB**, permitindo cadastrar e gerenciar as informações utilizadas no treinamento da triagem. A classificação foi integrada ao fluxo de criação dos chamados, fazendo com que a categoria fosse definida automaticamente a partir da descrição informada pelo usuário.
+
+Implementei o upload e envio de arquivos pelo chat. No back-end, com o módulo responsável pelo upload e armazenamento local dos arquivos, utilizando **Multer**, e integrando os anexos às mensagens do chat. No mobile, com a seleção de múltiplos arquivos e imagens, o envio dos anexos para a API e a exibição das imagens nas conversas, possibilitando visualização em tela cheia e zoom por gesto.
+
+ Além disso, trabalhei com o escalonamento dos chamados por nível de atendimento (N1, N2 e N3). No back-end, alterando a lógica para persistir o nível de escalonamento do chamado, ajustando as entidades, casos de uso, controllers e testes usando **Jest** relacionados ao fluxo. Já no aplicativo mobile, usando **React Native**, eu adicionei a seleção e a identificação visual do nível de atendimento nas listagens e detalhes.
+
+
+## Hard Skills
+- **NestJS e TypeScript:** Sei fazer com autonomia: desenvolvimento de módulos, APIs, services, controllers e regras de negócio.
+- **MongoDB e Mongoose:** Sei fazer com autonomia: criação de schemas, consultas e integração dos módulos com o banco de dados.
+- **Node-NLP:** Sei fazer com autonomia: criação de regras e treinamento para classificação automática de chamados.
+- **APIs REST:** Sei fazer com autonomia: criação de endpoints, DTOs, validações e integração entre os módulos da aplicação.
+- **React Native:** Sei fazer com autonomia: desenvolvimento de telas, componentes, integração com APIs e implementação de funcionalidades para a aplicação mobile.
+- **Testes(Jest):** Sei fazer com ajuda: criação de testes unitários e de integração para validar regras e endpoints.
+- **Git e GitHub:** Sei fazer com autonomia: criação de branches, Pull Requests, merges e resolução de conflitos.
+- **Swagger:** Sei fazer com autonomia: documentação e testes dos endpoints da API.
+
+## Soft Skills
+- **Pensamento Analítico:** Precisei entender como as categorias e os níveis de atendimento seriam utilizados no restante do sistema para definir a melhor forma de integrar a triagem e o escalonamento dos chamados, evitando inconsistências entre o back-end e o aplicativo mobile.
+
+- **Comunicação e Alinhamento:** Mantive contato com a equipe durante o desenvolvimento das funcionalidades para alinhar mudanças nas regras dos chamados, categorias, níveis de atendimento e envio de arquivos, principalmente quando uma alteração no back-end afetava o funcionamento do aplicativo.
+
+- **Organização:** Trabalhei com as funcionalidades separadas em branches e Pull Requests, mantendo as alterações organizadas e realizando a integração com a branch de desenvolvimento ao longo das sprints.
+
+- **Trabalho em Equipe e Colaboração:** Participei das revisões e integrações das funcionalidades desenvolvidas pela equipe, trabalhando principalmente na comunicação entre o back-end e o aplicativo mobile para garantir que os novos recursos fossem integrados corretamente.
+
+---
+
+## A definir - 2026 - 2º Semestre
+
+## Empresa Parceira
+O projeto está sendo desenvolvido em parceria com a **Dom Rock**, empresa que atua com soluções baseadas em dados e Inteligência Artificial. O desafio proposto envolve o desenvolvimento de uma aplicação para auxiliar empresas na definição, análise e gerenciamento de regras de negócio, utilizando técnicas de Engenharia de Software assistida por IA.
+
+## Problema
+Empresas trabalham com diversas regras de negócio que precisam ser alteradas conforme novos produtos são lançados, produtos são descontinuados, preços são modificados ou novos acordos comerciais são estabelecidos. Como essas regras mudam constantemente, manter esse conhecimento organizado e garantir que as alterações não entrem em conflito com regras existentes pode se tornar um processo complexo.
+
+Nesse cenário, a definição de campanhas e políticas comerciais pode envolver diferentes parâmetros, como canal de venda, produto, equipe e período de validade. Uma alteração aparentemente simples pode afetar outras regras e gerar inconsistências na operação. Por isso, o desafio consiste em desenvolver uma aplicação capaz de utilizar Inteligência Artificial para auxiliar na definição, ajuste, simulação e validação dessas regras, mantendo o usuário no controle das decisões.
+
+## Solução
+
+## Repositório no GitHub
+[A definir (Bug Busters)](https://github.com/Bug-Busters-F/)
+
+## Tecnologias Utilizadas
+
+## Contribuições Pessoais
+
+## Hard Skills
+
+## Soft Skills
