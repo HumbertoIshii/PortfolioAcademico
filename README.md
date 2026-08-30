@@ -55,7 +55,7 @@ Estou em busca de ingressar no mercado como desenvolvedor. Ao longo da graduaç�
 
 # Meus Projetos
 
-# <img src="./docs/scrumteach/logoScrumTeach.png" align="center" width="40"> Scrum Teach - 2024 - 1º Semestre 
+## <img src="./docs/scrumteach/logoScrumTeach.png" align="center" width="40"> Scrum Teach - 2024 - 1º Semestre 
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Antonio Egydio no papel de cliente. Ele foi o responsável por definir as necessidades do sistema e validar as entregas da equipe a cada sprint, simulando a rotina de desenvolvimento com Scrum em um cenário prático voltado às demandas do mercado.
@@ -110,17 +110,14 @@ Como Scrum Master, fiquei encarregado de acompanhar o andamento das tarefas, con
 ## Demonstração do Projeto
 
 ### Sistema de Login e Comentarios
-
-Adicionar video pelo github
+https://github.com/user-attachments/assets/df168210-c5b7-4ed4-b8e2-2f9670607d12
 
 ### Sistema de Avaliação e Quizzes
-
-Adicionar video pelo github
-
+https://github.com/user-attachments/assets/83918c80-08e1-4ffc-bc2a-3b04e3743ff6
 
 ---
 
-# <img src="./docs/alplaca/logoAlplaca.png" align="center" width="40"> Alplaca - 2024 - 2º Semestre  
+## <img src="./docs/alplaca/logoAlplaca.png" align="center" width="40"> Alplaca - 2024 - 2º Semestre  
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Giuliano Bertoti no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma aplicação desktop integrada a modelos de IA executados localmente.
@@ -175,18 +172,18 @@ Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funciona
 ### Classificação por modelo de IA Local
 
 <p align="center">
-  <img src="./docs/alplaca/AlplacaAI.gif" width="500"/>
+  <img src="./docs/alplaca/AlplacaAI.gif" />
 </p>
 
 ### Melhorias Visuais, Busca e Edição de Entradas
 
 <p align="center">
-  <img src="./docs/alplaca/AlplacaVisual.gif" width="500"/>
+  <img src="./docs/alplaca/AlplacaVisual.gif" />
 </p>
 
 ---
 
-# <span style="background-color: white; border-radius: 5px;"><img src="./docs/alfalog/logoAlfalog.png" align="center" width="50"></span> Alfalog - 2025 - 1º Semestre
+## <img src="./docs/alfalog/logoAlfalog.png" align="center" width="50"> Alfalog - 2025 - 1º Semestre
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Marcus Nascimento, coordenador do curso de Logística, no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas da equipe a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma plataforma web voltada à análise e visualização de dados de comércio exterior.
@@ -242,12 +239,12 @@ No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenv
 ### Dados reais mostrados em gráficos e tabelas
 
 <p align="center">
-  <img src="./docs/alfalog/AlfalogGraficos.gif" width="500"/>
+  <img src="./docs/alfalog/AlfalogGraficos.gif" />
 </p>
 
 ---
 
-# <img src="./docs/classipy/logoClassiPy.png" align="center" width="40"> ClassiPy - 2025 - 2º Semestre
+## <img src="./docs/classipy/logoClassiPy.png" align="center" width="40"> ClassiPy - 2025 - 2º Semestre
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **TecSys**, com atuação em Telecom e desenvolvimento de soluções para Telecom, Broadband, Broadcast, Embedded e Smart Grid, com foco em projetos sob medida. A empresa atuou como cliente externo, apresentando as necessidades reais do setor e validando as entregas da equipe a cada sprint, orientando o desenvolvimento de uma aplicação web voltada para a automação e padronização da classificação fiscal de produtos importados.
@@ -275,7 +272,7 @@ Além da extração e classificação automática, a plataforma conta com uma in
 - **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
 - **Slack:** Comunicação e alinhamento com o cliente.
 
-#### Contribuições Pessoais
+## Contribuições Pessoais
 No projeto, atuei como Product Owner (PO) e desenvolvedor (dev), participando tanto da definição e validação das necessidades do cliente quanto do desenvolvimento da aplicação.
 
 Como PO, fiquei responsável por estar em contato com o cliente e tirar dúvidas da equipe de desenvolvimento sobre o processo da TecSys, principalmente sobre o ciclo de transformar uma ordem de pedido em PDF, contendo os Part Numbers, em um arquivo Excel com as informações exigidas pela empresa. Também participei do levantamento das informações que deveriam ser obtidas de cada Part Number, ajudando a definir quais dados deveriam ser extraídos, processados e apresentados no resultado final. Além disso, acompanhei o andamento do projeto, dando feedback ao cliente e validando principalmente as telas e o fluxo da aplicação.
@@ -310,12 +307,12 @@ No front-end, utilizando **React, TypeScript e Tailwind CSS**, trabalhei em melh
 ### Visão Geral da Aplicação
 
 <p align="center">
-  <img src="./docs/classipy/ClassiPyGeral.gif" width="500"/>
+  <img src="./docs/classipy/ClassiPyGeral.gif" />
 </p>
 
 ---
 
-# <img src="./docs/prodesk/logoProDesk.png" align="center" width="40"> ProDesk - 2026 - 1º Semestre  
+## <img src="./docs/prodesk/logoProDesk.png" align="center" width="40"> ProDesk - 2026 - 1º Semestre  
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **Pro4tech**, empresa que atua na área de tecnologia da informação, oferecendo soluções e serviços de suporte para empresas. A empresa participou do projeto como cliente, apresentando as necessidades relacionadas ao atendimento de suporte técnico e validando as entregas da equipe ao longo das sprints, simulando um cenário real de desenvolvimento de uma aplicação de Help Desk.
@@ -374,11 +371,11 @@ Implementei o upload e envio de arquivos pelo chat. No back-end, com o módulo r
 
 ### Visão Geral do Aplicativo Mobile
 
-Adicionar video pelo github
+https://github.com/user-attachments/assets/fd7f947f-8513-49a3-aca5-db2ecd8eb0c0
 
 ---
 
-# <img src="./docs/" align="center" width="40"> A definir - 2026 - 2º Semestre
+## <img src="./docs/" align="center" width="40"> A definir - 2026 - 2º Semestre
 
 ## Empresa Parceira
 O projeto está sendo desenvolvido em parceria com a **Dom Rock**, empresa que atua com soluções baseadas em dados e Inteligência Artificial. O desafio proposto envolve o desenvolvimento de uma aplicação para auxiliar empresas na definição, análise e gerenciamento de regras de negócio, utilizando técnicas de Engenharia de Software assistida por IA.
