@@ -51,9 +51,11 @@ Estou em busca de ingressar no mercado como desenvolvedor. Ao longo da graduaç�
 - Ollama
 - Metodologias Ágeis (Scrum)
 
+---
+
 # Meus Projetos
 
-## Scrum Teach - 2024 - 1º Semestre 
+# <img src="./docs/scrumteach/logoScrumTeach.png" align="center" width="40"> Scrum Teach - 2024 - 1º Semestre 
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Antonio Egydio no papel de cliente. Ele foi o responsável por definir as necessidades do sistema e validar as entregas da equipe a cada sprint, simulando a rotina de desenvolvimento com Scrum em um cenário prático voltado às demandas do mercado.
@@ -105,9 +107,20 @@ Como Scrum Master, fiquei encarregado de acompanhar o andamento das tarefas, con
 
 - **Trabalho em Equipe e Colaboração:** Trabalhei em conjunto com os outros membros do time para integrar as rotas do back-end com o front-end em Bootstrap, ajudando os colegas a resolver impasses técnicos e mantendo o repositório sincronizado.
 
+## Demonstração do Projeto
+
+### Sistema de Login e Comentarios
+
+Adicionar video pelo github
+
+### Sistema de Avaliação e Quizzes
+
+Adicionar video pelo github
+
+
 ---
 
-## Alplaca - 2024 - 2º Semestre  
+# <img src="./docs/alplaca/logoAlplaca.png" align="center" width="40"> Alplaca - 2024 - 2º Semestre  
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Giuliano Bertoti no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma aplicação desktop integrada a modelos de IA executados localmente.
@@ -157,9 +170,23 @@ Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funciona
 
 - **Trabalho em Equipe e Colaboração:** Colaborei ativamente na integração entre o módulo de IA, a persistência no MySQL e a interface em Java Swing, auxiliando na implementação dos filtros e garantindo a sincronia do código no repositório.
 
+## Demonstração do Projeto
+
+### Classificação por modelo de IA Local
+
+<p align="center">
+  <img src="./docs/alplaca/AlplacaAI.gif" width="500"/>
+</p>
+
+### Melhorias Visuais, Busca e Edição de Entradas
+
+<p align="center">
+  <img src="./docs/alplaca/AlplacaVisual.gif" width="500"/>
+</p>
+
 ---
 
-## Alfalog - 2025 - 1º Semestre
+# <span style="background-color: white; border-radius: 5px;"><img src="./docs/alfalog/logoAlfalog.png" align="center" width="50"></span> Alfalog - 2025 - 1º Semestre
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Marcus Nascimento, coordenador do curso de Logística, no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas da equipe a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma plataforma web voltada à análise e visualização de dados de comércio exterior.
@@ -210,9 +237,17 @@ No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenv
 
 - **Trabalho em Equipe e Colaboração:** Participei ativamente do fluxo colaborativo no GitHub, revisando códigos em Pull Requests, sincronizando a branch `dev` com as branches de funcionalidades e auxiliando os colegas a resolver conflitos de merge durante as sprints.
 
+## Demonstração do Projeto
+
+### Dados reais mostrados em gráficos e tabelas
+
+<p align="center">
+  <img src="./docs/alfalog/AlfalogGraficos.gif" width="500"/>
+</p>
+
 ---
 
-## ClassiPy - 2025 - 2º Semestre
+# <img src="./docs/classipy/logoClassiPy.png" align="center" width="40"> ClassiPy - 2025 - 2º Semestre
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **TecSys**, com atuação em Telecom e desenvolvimento de soluções para Telecom, Broadband, Broadcast, Embedded e Smart Grid, com foco em projetos sob medida. A empresa atuou como cliente externo, apresentando as necessidades reais do setor e validando as entregas da equipe a cada sprint, orientando o desenvolvimento de uma aplicação web voltada para a automação e padronização da classificação fiscal de produtos importados.
@@ -270,9 +305,17 @@ No front-end, utilizando **React, TypeScript e Tailwind CSS**, trabalhei em melh
 
 - **Trabalho em Equipe e Colaboração:** Atuei em duas frentes ao longo do projeto (PO e desenvolvedor) o que exigiu transitar entre as decisões de produto e a implementação técnica.Isso exigiu proximidade com os outros integrantes, tanto para validar as entregas quanto para contribuir com código.
 
+## Demonstração do Projeto
+
+### Visão Geral da Aplicação
+
+<p align="center">
+  <img src="./docs/classipy/ClassiPyGeral.gif" width="500"/>
+</p>
+
 ---
 
-## ProDesk - 2026 - 1º Semestre  
+# <img src="./docs/prodesk/logoProDesk.png" align="center" width="40"> ProDesk - 2026 - 1º Semestre  
 
 ## Empresa Parceira
 O projeto foi desenvolvido em parceria com a **Pro4tech**, empresa que atua na área de tecnologia da informação, oferecendo soluções e serviços de suporte para empresas. A empresa participou do projeto como cliente, apresentando as necessidades relacionadas ao atendimento de suporte técnico e validando as entregas da equipe ao longo das sprints, simulando um cenário real de desenvolvimento de uma aplicação de Help Desk.
@@ -299,8 +342,6 @@ O sistema também conta com funcionalidades para gerenciamento de usuários, aut
 * **Jira:** Gerenciamento das tarefas e acompanhamento das sprints.
 * **React Native:** Desenvolvimento da aplicação mobile.
 
-
-
 ### Contribuições Pessoais
 No projeto, atuei como desenvolvedor full-stack, trabalhando principalmente no módulo de triagem dos chamados e nas funcionalidades relacionadas ao atendimento.
 
@@ -309,7 +350,6 @@ Minha principal atuação foi no desenvolvimento do módulo de triagem utilizand
 Implementei o upload e envio de arquivos pelo chat. No back-end, com o módulo responsável pelo upload e armazenamento local dos arquivos, utilizando **Multer**, e integrando os anexos às mensagens do chat. No mobile, com a seleção de múltiplos arquivos e imagens, o envio dos anexos para a API e a exibição das imagens nas conversas, possibilitando visualização em tela cheia e zoom por gesto.
 
  Além disso, trabalhei com o escalonamento dos chamados por nível de atendimento (N1, N2 e N3). No back-end, alterando a lógica para persistir o nível de escalonamento do chamado, ajustando as entidades, casos de uso, controllers e testes usando **Jest** relacionados ao fluxo. Já no aplicativo mobile, usando **React Native**, eu adicionei a seleção e a identificação visual do nível de atendimento nas listagens e detalhes.
-
 
 ## Hard Skills
 - **NestJS e TypeScript:** Sei fazer com autonomia: desenvolvimento de módulos, APIs, services, controllers e regras de negócio.
@@ -330,9 +370,15 @@ Implementei o upload e envio de arquivos pelo chat. No back-end, com o módulo r
 
 - **Trabalho em Equipe e Colaboração:** Participei das revisões e integrações das funcionalidades desenvolvidas pela equipe, trabalhando principalmente na comunicação entre o back-end e o aplicativo mobile para garantir que os novos recursos fossem integrados corretamente.
 
+## Demonstração do Projeto
+
+### Visão Geral do Aplicativo Mobile
+
+Adicionar video pelo github
+
 ---
 
-## A definir - 2026 - 2º Semestre
+# <img src="./docs/" align="center" width="40"> A definir - 2026 - 2º Semestre
 
 ## Empresa Parceira
 O projeto está sendo desenvolvido em parceria com a **Dom Rock**, empresa que atua com soluções baseadas em dados e Inteligência Artificial. O desafio proposto envolve o desenvolvimento de uma aplicação para auxiliar empresas na definição, análise e gerenciamento de regras de negócio, utilizando técnicas de Engenharia de Software assistida por IA.
