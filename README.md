@@ -1,399 +1,362 @@
 # Humberto Ishii Silva
 
-## Introdução
-Sou estudante do curso de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos – Prof. Jessen Vidal. Possuo formação técnica em Mecatrônica e vivência acadêmica anterior em Engenharia Mecatrônica, onde o contato inicial com lógica digital e programação despertou meu interesse pelo desenvolvimento de software e contribuiu para minha escolha pela área de tecnologia.
+## Sobre Mim
+Sou estudante de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal. Possuo formação técnica em Mecatrônica e vivência acadêmica anterior em Engenharia Mecatrônica, onde o primeiro contato com lógica e programação despertou meu interesse pelo desenvolvimento de software e guiou minha transição para a área de tecnologia.
 
-Tenho maior afinidade e foco no desenvolvimento Back-end, especialmente na criação de APIs, regras de negócio, modelagem de bancos de dados e integração entre sistemas. Também possuo interesse e experiência prática com agentes de Inteligência Artificial, além de conhecimentos em desenvolvimento Full Stack para aplicações Web e Mobile.
+Meu foco principal é no desenvolvimento **Back-end**, especialmente na construção de APIs, implementação de regras de negócio, modelagem de bancos de dados e integração entre sistemas. Também tenho forte interesse e experiência prática com agentes de **Inteligência Artificial**, além de desenvolver soluções **Full Stack** para web e mobile.
 
-Estou em busca de ingressar no mercado como desenvolvedor. Ao longo da graduação, tenho aproveitado os projetos integradores para vivenciar a dinâmica de um time de tecnologia, aplicando Scrum em sprints, colaborando na arquitetura de sistemas e buscando entregar soluções de valor.
+Busco oportunidades para atuar no mercado como desenvolvedor. Nos projetos integradores da graduação, vivencio na prática a rotina de times ágeis utilizando Scrum em sprints, participando das decisões de arquitetura e entregando software funcional.
 
-<div display="flex";justify-content="center;">
-    <img src="./docs/foto.png" width="400px"/>
-</div>
+<p align="center">
+  <img src="./docs/foto.png" width="400px" alt="Foto de Humberto Ishii" />
+</p>
 
 ## Contatos
-- **GitHub:** https://github.com/HumbertoIshii/
-- **LinkedIn:** https://www.linkedin.com/in/humberto-ishii-silva/
-- **Email:** humbertosjc98@gmail.com
+- **GitHub:** [github.com/HumbertoIshii](https://github.com/HumbertoIshii/)
+- **LinkedIn:** [linkedin.com/in/humberto-ishii-silva](https://www.linkedin.com/in/humberto-ishii-silva/)
+- **Email:** [humbertosjc98@gmail.com](mailto:humbertosjc98@gmail.com)
 
-## Meus Principais Conhecimentos
+## Principais Conhecimentos
 
-### Linguagens de programação
+### Linguagens de Programação
 - Python
-- Javascript
+- JavaScript
 - TypeScript
 - Java
 
 ### Frontend
-- HTML
-- CSS
+- HTML5 / CSS3
 - React
-- Tailwind
+- Tailwind CSS
+- Bootstrap
 
 ### Backend
 - Node.js
 - NestJS
-- Flask
 - FastAPI
+- Flask
 
 ### Mobile
-- Expo
 - React Native
+- Expo
 
-### Banco de Dados
+### Bancos de Dados
 - MySQL
 - PostgreSQL
 - MongoDB
+- ChromaDB
 
-### Outros
+### Outras Ferramentas e Práticas
+- Git e GitHub
 - AWS
-- Git
-- Ollama
+- Ollama (Modelos Locais)
 - Metodologias Ágeis (Scrum)
 
 ---
 
 # Meus Projetos
 
-## <img src="./docs/scrumteach/logoScrumTeach.png" align="center" width="40"> Scrum Teach - 2024 - 1º Semestre 
+## <img src="./docs/scrumteach/logoScrumTeach.png" align="center" width="36"> Scrum Teach - 2024 - 1º Semestre
 
-## Empresa Parceira
-O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Antonio Egydio no papel de cliente. Ele foi o responsável por definir as necessidades do sistema e validar as entregas da equipe a cada sprint, simulando a rotina de desenvolvimento com Scrum em um cenário prático voltado às demandas do mercado.
+### Empresa Parceira
+Projeto desenvolvido em parceria com a **FATEC São José dos Campos - Prof. Jessen Vidal**, com o professor Antonio Egydio atuando no papel de cliente. Ele foi responsável por definir os requisitos e validar as entregas da equipe a cada sprint, simulando a rotina de desenvolvimento ágil com Scrum em um cenário prático.
 
-## Problema
-O cliente trouxe o desafio de capacitar os colaboradores da empresa no uso de métodos ágeis, com foco no framework Scrum. Para isso, era necessária uma plataforma interna de treinamento que reunisse materiais didáticos e avaliações em um só lugar, permitindo que os funcionários aprendessem os conceitos fundamentais e testassem o conhecimento com questionários.
+### Problema
+Profissionais e equipes que estão começando a adotar métodos ágeis frequentemente têm dificuldade para assimilar os conceitos e práticas do Scrum sem um suporte estruturado. O cliente precisava de uma plataforma de treinamento que centralizasse conteúdos didáticos e testes de conhecimento, permitindo que os colaboradores aprendessem os conceitos fundamentais e acompanhassem sua evolução por meio de questionários.
 
-A proposta foi centralizar essa capacitação em um ambiente único e acessível, facilitando o estudo dos conteúdos e o acompanhamento do aprendizado. Além de atender a essa demanda do cliente, o projeto serviu para que a própria equipe de desenvolvimento aplicasse o Scrum na prática ao longo da construção da plataforma.
+### Solução
+A equipe desenvolveu a **Scrum Teach**, uma aplicação web voltada para o ensino prático da metodologia ágil. A plataforma organiza os conceitos do Scrum em módulos didáticos e visuais, explicando detalhadamente os papéis (Product Owner, Scrum Master e Time de Desenvolvimento), as cerimônias (Planning, Daily, Review e Retrospectiva) e os artefatos do framework.
 
-## Solução
-A equipe desenvolveu a **Scrum Teach**, uma aplicação web voltada para a capacitação dinâmica e estruturada na metodologia ágil. A plataforma organiza os conceitos do Scrum em módulos didáticos e visuais, cobrindo detalhadamente os papéis (Product Owner, Scrum Master e Time de Desenvolvimento), as cerimônias (como Planning, Daily, Review e Retrospectiva) e os principais artefatos do framework.
+O sistema também conta com quizzes interativos para fixação do conteúdo e acompanhamento do progresso dos usuários. A interface foi projetada para ser simples e responsiva, garantindo uma boa navegação em computadores e celulares.
 
-Além do conteúdo teórico, o sistema conta com recursos interativos de avaliação, como quizzes e simulados práticos integrados, permitindo que os usuários testem a fixação dos conceitos e acompanhem seu progresso. A interface foi projetada com foco em responsividade e usabilidade, garantindo uma navegação fluida em diferentes dispositivos e tornando o aprendizado mais prático e acessível.
+### Repositório no GitHub
+- [Scrum Teach (API 1º Semestre)](https://github.com/HumbertoIshii/API1Semestre)
 
-## Repositório no GitHub
-[Scrum Teach](https://github.com/HumbertoIshii/API1Semestre)
+### Tecnologias Utilizadas
+- **Python (Flask):** Desenvolvimento da lógica de back-end, autenticação de usuários e controle de sessões.
+- **MySQL:** Armazenamento de cadastros, comentários e histórico de pontuações.
+- **HTML5 e CSS3:** Estruturação das páginas e estilização da interface.
+- **Bootstrap:** Criação de componentes padronizados e adaptação de layout responsivo.
+- **AWS:** Hospedagem da aplicação na nuvem.
+- **Git e GitHub:** Controle de versão do código e fluxo de trabalho em equipe.
+- **Figma:** Prototipagem das telas e planejamento da navegação.
 
-## Tecnologias Utilizadas
-- **Python (Flask):** Responsável pela lógica de back-end, autenticação de sessões e gerenciamento das rotas da aplicação.
-- **MySQL:** Banco de dados relacional empregado para armazenar cadastros, comentários e histórico de pontuações.
-- **Bootstrap:** Construção de uma interface limpa, com componentes padronizados e adaptação fluida para dispositivos móveis e desktop.
-- **HTML5 e CSS3:** Estruturação das páginas e personalização do design visual da plataforma.
-- **AWS:** Hospedagem da aplicação na nuvem para manter o sistema online.
-- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
-- **Figma:** Criação dos protótipos e estudo da navegação antes da implementação no código.
-
-## Contribuições Pessoais
+### Contribuições Pessoais
 No projeto, atuei como Scrum Master e desenvolvedor full-stack.
 
-Na parte de desenvolvimento, fui responsável por criar o sistema de autenticação (login e controle de sessão) usando **Python (Flask)** integrado ao banco de dados **MySQL**. No front-end, trabalhei na criação e estilização das páginas de conteúdo com **HTML5**, **CSS3** e **Bootstrap**, tornando o layout responsivo para garantir uma boa visualização tanto no computador quanto no celular.
+Na parte de desenvolvimento, fui responsável por criar o sistema de autenticação (cadastro, login e controle de sessão) usando **Python (Flask)** integrado ao banco de dados **MySQL**. No front-end, trabalhei na criação e estilização das páginas de conteúdo com **HTML5**, **CSS3** e **Bootstrap**, tornando o layout responsivo para garantir uma boa visualização tanto no computador quanto no celular.
 
-Como Scrum Master, fiquei encarregado de acompanhar o andamento das tarefas, conduzir as reuniões da equipe (planning, dailies e retrospectivas) e ajudar a destravar qualquer problema técnico ou de alinhamento para não atrasar as entregas das sprints.
+Como Scrum Master, fiquei encarregado de acompanhar o andamento das tarefas, conduzir as reuniões da equipe (plannings, dailies e retrospectivas), organizar o backlog no repositório e ajudar a destravar qualquer impedimento técnico ou de alinhamento para garantir as entregas das sprints.
 
-## Hard Skills
-- **HTML5 e CSS3:** Sei fazer com autonomia: estruturação de páginas e personalização visual da interface.
-- **Bootstrap:** Sei fazer com autonomia: construção de layouts responsivos e uso de componentes padronizados.
+### Hard Skills
 - **Python (Flask):** Sei fazer com autonomia: criação de rotas, regras de negócio e controle de autenticação/sessão.
-- **MySQL:** Sei fazer com autonomia: modelagem de tabelas e integração das consultas com a aplicação.
-- **Git e GitHub:** Sei fazer com autonomia: versionamento do código, fluxo de branches e resolução de conflitos.
-- **Figma:** Sei fazer com autonomia: prototipagem de telas e planejamento visual da experiência do usuário.
+- **MySQL:** Sei fazer com autonomia: modelagem de tabelas relacionais e integração de consultas à aplicação.
+- **HTML5 e CSS3:** Sei fazer com autonomia: estruturação de páginas e personalização visual da interface.
+- **Bootstrap:** Sei fazer com autonomia: construção de layouts responsivos e uso de componentes prontos.
+- **Git e GitHub:** Sei fazer com autonomia: versionamento de código, fluxo de branches e resolução de conflitos.
+- **Figma:** Sei fazer com autonomia: prototipagem de telas e planejamento visual da navegação.
 - **Metodologia Scrum:** Sei fazer com autonomia: organização do backlog, condução de cerimônias ágeis e acompanhamento das sprints.
 
-## Soft Skills
-- **Comunicação e Facilitação:** Como Scrum Master, precisei exercitar uma comunicação clara e constante para conduzir as reuniões (planning, dailies e retrospectivas), alinhando as expectativas com a equipe e garantindo que os impedimentos fossem identificados antes de virarem gargalos.
+### Soft Skills
+- **Comunicação e Facilitação:** Conduzi as reuniões ágeis como Scrum Master, mantendo o alinhamento de expectativas com o time e identificando impedimentos antes que se tornassem bloqueios.
+- **Organização e Gestão de Tempo:** Equilibrei a gestão das tarefas da equipe com as minhas entregas técnicas de código (sistema de login e telas), cumprindo os prazos das sprints.
+- **Resolução de Problemas:** Investiguei e corrigi falhas no controle de sessão e login com Flask/MySQL, além de auxiliar na resolução de conflitos de merge no Git.
 
-- **Organização e Gestão de Tempo:** Tive que equilibrar a responsabilidade de gerenciar as sprints com o desenvolvimento técnico (sistema de login e telas), exigindo disciplina para planejar as tarefas e cumprir as entregas dentro dos prazos de cada ciclo.
+### Demonstração do Projeto
 
-- **Resolução de Problemas:** Atuei diretamente na investigação e correção de falhas no controle de sessão e login com Flask/MySQL, além de resolver conflitos de branches no Git e ajustar problemas de responsividade na interface.
-
-- **Trabalho em Equipe e Colaboração:** Trabalhei em conjunto com os outros membros do time para integrar as rotas do back-end com o front-end em Bootstrap, ajudando os colegas a resolver impasses técnicos e mantendo o repositório sincronizado.
-
-## Demonstração do Projeto
-
-### Sistema de Login e Comentarios
+#### Sistema de Login e Comentários
 https://github.com/user-attachments/assets/df168210-c5b7-4ed4-b8e2-2f9670607d12
 
-### Sistema de Avaliação e Quizzes
+#### Sistema de Avaliação e Quizzes
 https://github.com/user-attachments/assets/83918c80-08e1-4ffc-bc2a-3b04e3743ff6
 
 ---
 
-## <img src="./docs/alplaca/logoAlplaca.png" align="center" width="40"> Alplaca - 2024 - 2º Semestre  
+## <img src="./docs/alplaca/logoAlplaca.png" align="center" width="36"> Alplaca - 2024 - 2º Semestre
 
-## Empresa Parceira
-O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Giuliano Bertoti no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma aplicação desktop integrada a modelos de IA executados localmente.
+### Empresa Parceira
+Projeto desenvolvido em parceria com a **FATEC São José dos Campos - Prof. Jessen Vidal**, tendo o professor Giuliano Bertoti como cliente. Ele direcionou os requisitos e validou as entregas a cada sprint no desenvolvimento de uma aplicação desktop com inteligência artificial executada localmente.
 
-## Problema
-O controle e registro de veículos frequentemente dependem de processos manuais lentos e sujeitos a falhas, ou de serviços de Inteligência Artificial em nuvem de terceiros. Essa dependência externa acarreta custos recorrentes com consumo de APIs, exige conexão continua com a internet e levanta preocupações quanto à privacidade e segurança dos dados transmitidos a servidores externos.
+### Problema
+O controle de veículos em estacionamentos e frotas frequentemente depende de anotações manuais, sujeitas a lentidão e erros, ou de serviços de visão computacional em nuvem. No entanto, o uso de APIs externas de IA traz custos recorrentes, exige conexão contínua com a internet e levanta preocupações com a privacidade e segurança das imagens trafegadas. Havia a necessidade de uma solução capaz de reconhecer placas veiculares diretamente na máquina do usuário, de forma rápida, segura e sem dependência de serviços externos pagos.
 
-Para solucionar esse cenário, era necessário a criação de uma ferramenta capaz de automatizar a leitura e identificação de placas de forma local e segura, processando as imagens diretamente na máquina do usuário e persistindo os dados de forma estruturada.
+### Solução
+Desenvolvemos o **Alplaca**, uma aplicação desktop em Java integrada ao MySQL e a modelos de visão computacional executados localmente via Ollama. O sistema realiza a leitura óptica de caracteres (OCR) das placas de veículos a partir de imagens, funcionando totalmente offline.
 
-## Solução
-A equipe desenvolveu o **Alplaca**, uma aplicação desktop desenvolvida em Java com interface gráfica integrada ao banco de dados MySQL e a modelos de Inteligência Artificial executados localmente via Ollama. O sistema automatiza o reconhecimento e a extração de caracteres de placas veiculares por meio de visão computacional, eliminando a dependência de serviços externos ou conexão com a internet.
+Além da extração e leitura das placas pela IA, o software conta com gerenciamento completo de registros (CRUD), permitindo cadastrar, consultar, atualizar e remover veículos, além de oferecer busca com filtros por placa, histórico de movimentações e visualização das fotos associadas.
 
-Além da inferência e leitura das placas, o software disponibiliza um módulo de gerenciamento de dados (CRUD) completo, permitindo cadastrar, consultar, atualizar e remover registros de veículos, além de oferecer busca por placas com filtros, navegação entre registros e armazenamento das imagens associadas.
+### Repositório no GitHub
+- [Alplaca (Bug Busters)](https://github.com/Bug-Busters-F/alplaca)
 
-## Repositório no GitHub
-[Alplaca (Bug Busters)](https://github.com/Bug-Busters-F/alplaca)
-
-## Tecnologias Utilizadas
-- **Java:** Desenvolvimento da aplicação desktop, regras de negócio e integração dos componentes do sistema.
+### Tecnologias Utilizadas
+- **Java:** Desenvolvimento da lógica da aplicação, regras de negócio e integração dos módulos.
 - **Java Swing:** Construção da interface gráfica desktop para interação com o usuário.
-- **MySQL:** Banco de dados relacional empregado para o armazenamento de veículos, placas e histórico de registros.
-- **Ollama:** Execução local de modelos multimodais de IA para reconhecimento óptico de caracteres e análise de imagens.
-- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
-- **Figma:** Prototipagem e planejamento visual das telas para guiar o desenvolvimento da interface gráfica.
-
-## Contribuições Pessoais
-No projeto, atuei como desenvolvedor, focando na integração dos modelos de Inteligência Artificial à aplicação e na implementação de funcionalidades do sistema.
-
-Minha principal atuação técnica foi conectar o **Ollama** à aplicação em **Java** utilizando a biblioteca **ollama4j**. Realizei testes práticos para avaliar e selecionar o modelo que apresentasse o melhor equilíbrio entre tempo de inferência e precisão na leitura das placas. Além disso, elaborei e refinei a engenharia de prompts enviada junto às imagens para garantir a extração dos caracteres no padrão exigido pelo banco de dados.
-
-Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funcionalidade de busca com filtros para consulta de veículos cadastrados e auxiliando no ajuste visual dos componentes da tela.
-
-## Hard Skills
-- **Java:** Sei fazer com ajuda: desenvolvimento da lógica da aplicação e integração de bibliotecas com apoio da documentação e IDE.
-- **Java Swing:** Sei fazer com ajuda: construção de telas, componentes visuais e filtros utilizando o designer gráfico do IntelliJ.
-- **Ollama e ollama4j:** Sei fazer com autonomia: integração de modelos de IA locais ao Java, testes comparativos de modelos multimodais e engenharia de prompts.
-- **MySQL:** Sei fazer com autonomia: modelagem e persistência de dados de veículos, placas e histórico.
-- **Git e GitHub:** Sei fazer com autonomia: versionamento de código, gerenciamento de branches e resolução de conflitos.
-- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa nas cerimônias ágeis, planejamento e cumprimento das entregas das sprints.
-
-## Soft Skills
-- **Comunicação e Alinhamento:** Mantive diálogo constante com os outros desenvolvedores para definir como os dados extraídos pela IA seriam repassados para a interface e para o banco de dados, alinhando formatos e evitando inconsistências no fluxo da aplicação.
-
-- **Pensamento Crítico e Análise:** Exercitei a capacidade analítica ao conduzir testes comparativos entre diferentes modelos de visão computacional, avaliando taxa de acerto na leitura, tempo de resposta e consumo de memória da máquina.
-
-- **Resolução de Problemas e Adaptabilidade:** Lidei com desafios na comunicação entre o Ollama e o Java via `ollama4j` e com variações nas respostas da IA, iterando na engenharia de prompts e no tratamento de retornos até alcançar saídas consistentes e estruturadas.
-
-- **Trabalho em Equipe e Colaboração:** Colaborei ativamente na integração entre o módulo de IA, a persistência no MySQL e a interface em Java Swing, auxiliando na implementação dos filtros e garantindo a sincronia do código no repositório.
-
-## Demonstração do Projeto
-
-### Classificação por modelo de IA Local
-
-<p align="center">
-  <img src="./docs/alplaca/AlplacaAI.gif" />
-</p>
-
-### Melhorias Visuais, Busca e Edição de Entradas
-
-<p align="center">
-  <img src="./docs/alplaca/AlplacaVisual.gif" />
-</p>
-
----
-
-## <img src="./docs/alfalog/logoAlfalog.png" align="center" width="50"> Alfalog - 2025 - 1º Semestre
-
-## Empresa Parceira
-O projeto foi desenvolvido em parceria com a **FATEC São José dos Campos – Prof. Jessen Vidal**, tendo o professor Marcus Nascimento, coordenador do curso de Logística, no papel de cliente. Ele foi o responsável por definir os requisitos do sistema e validar as entregas da equipe a cada sprint, simulando o fluxo de mercado no desenvolvimento de uma plataforma web voltada à análise e visualização de dados de comércio exterior.
-
-## Problema
-A análise de dados de importação e exportação no Brasil é prejudicada pelo grande volume e pela fragmentação das bases públicas disponibilizadas pelo governo, como as do MDIC e Comex Stat. Por estarem em formato bruto e dispersos em arquivos extensos, o processo de consulta manual torna-se lento e complexo, dificultando a identificação de padrões comerciais, gargalos logísticos e o acompanhamento do desempenho econômico por estados e municípios.
-
-Para solucionar esse cenário, era necessária a criação de uma plataforma centralizada capaz de tratar, organizar e apresentar essas informações de forma visual e interativa, permitindo a aplicação de filtros dinâmicos para apoiar a tomada de decisão baseada em dados.
-
-## Solução
-A equipe desenvolveu a **Alfalog**, uma aplicação web voltada para a análise e visualização de dados de comércio exterior brasileiro. A plataforma centraliza e estrutura os dados públicos do MDIC/Comex Stat em um banco de dados relacional, transformando grandes volumes de registros brutos de importação e exportação em dashboards analíticos e gráficos interativos para facilitar a interpretação das informações.
-
-Além da visualização consolidada da balança comercial, o sistema conta com filtros avançados por código NCM, estados, municípios, vias de transporte e períodos históricos (2014 a 2024), além de recursos de previsão de tendências históricas. A interface foi projetada com foco em usabilidade e organização visual, permitindo aos usuários cruzar dados e exportar relatórios para apoiar a tomada de decisão no setor logístico.
-
-## Repositório no GitHub
-[Alfalog (Bug Busters)](https://github.com/Bug-Busters-F/Alfalog)
-
-## Tecnologias Utilizadas
-- **React e TypeScript:** Desenvolvimento da interface web, componentização dinâmica e renderização dos dashboards analíticos.
-- **Tailwind CSS:** Estilização da interface com foco em responsividade e padronização visual.
-- **ApexCharts:** Construção dos gráficos interativos e painéis visuais para análise dos dados.
-- **Python (Flask):** Desenvolvimento da API, gerenciamento de rotas e processamento/ETL das bases de dados.
-- **MySQL:** Banco de dados relacional empregado para armazenar, estruturar e consultar o grande volume de dados de comércio exterior.
-- **AWS:** Hospedagem da aplicação na nuvem para manter o sistema online e disponível.
-- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
-
-## Contribuições Pessoais
-No projeto, atuei como desenvolvedor full-stack, trabalhando tanto na construção das regras de negócio e rotas no back-end quanto na implementação de componentes e consumo de dados no front-end.
-
-No back-end, utilizando **Python (Flask)** e **MySQL**, fui o responsável por modelar a tabela de balança comercial vinculada às Unidades Federativas (UFs). Para automatizar o processamento dos dados históricos públicos do Comex Stat, desenvolvi uma rotina via linha de comando (`flask comex update balanca`) que lia os arquivos brutos, calculava o saldo comercial anual de cada estado (valor FOB de exportação menos FOB de importação) e salvava os dados estruturados no banco. Além disso, criei as rotas da API em Flask usando blueprints para fornecer os dados dos gráficos (como contagem de uso das alfândegas/URFs e séries temporais anuais) e os endpoints para os cards de desempenho dos estados.
-
-No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenvolvendo os componentes visuais dos cards de estados em alta e em queda e substituindo os dados estáticos (*mocks*) pela integração direta com a API. Também atuei na refatoração da página de relatórios de dados, ajustando a exibição dos gráficos de barras e a descrição dos filtros. Para resolver problemas de compartilhamento de filtros entre componentes na exportação de relatórios, implementei a Context API do React com o `ExportContextProvider`, garantindo que os dados selecionados pelo usuário fossem repassados corretamente na hora de gerar os arquivos.
-
-## Hard Skills
-- **Python (Flask):** Sei fazer com autonomia: criação de rotas e blueprints para APIs REST, desenvolvimento de comandos CLI para rotinas de processamento e lógica de cálculo da balança comercial.
-- **MySQL:** Sei fazer com autonomia: modelagem de tabelas relacionais vinculadas a UFs, criação de chaves e otimização de consultas para busca de dados históricos.
-- **React e TypeScript:** Sei fazer com autonomia: criação de componentes reutilizáveis, tipagem de dados, consumo de APIs REST e gerenciamento de estado com Context API.
-- **Tailwind CSS:** Sei fazer com autonomia: estilização de layouts responsivos e padronização visual de dashboards e relatórios.
-- **Git e GitHub:** Sei fazer com autonomia: controle de versionamento, fluxo de branches para features e correções, abertura de Pull Requests e resolução de conflitos.
-- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa no planejamento das sprints, divisão técnica de tarefas e cumprimento dos prazos de entrega.
-
-## Soft Skills
-- **Comunicação e Alinhamento Técnico:** Como atuei tanto no back-end quanto no front-end, mantive contato constante com a equipe para alinhar a estrutura das requisições e o formato das respostas em JSON da API. Isso garantiu que os dados da balança comercial e das URFs chegassem no formato correto para renderização nos gráficos, evitando retrabalho.
-
-- **Resolução de Problemas:** Na página de relatórios, identifiquei que os filtros selecionados pelo usuário se perdiam entre componentes isolados na hora da exportação. Para corrigir a falha, criei um provedor de contexto (`ExportContextProvider`) com a Context API, centralizando o estado dos filtros e normalizando a exportação.
-
-- **Visão Sistêmica:** Consegui conectar todo o fluxo da aplicação na prática: desde a importação e cálculo dos dados brutos no MySQL com Flask até a renderização dos gráficos e relatórios no React, entendendo o impacto de cada alteração em ambas as pontas do sistema.
-
-- **Trabalho em Equipe e Colaboração:** Participei ativamente do fluxo colaborativo no GitHub, revisando códigos em Pull Requests, sincronizando a branch `dev` com as branches de funcionalidades e auxiliando os colegas a resolver conflitos de merge durante as sprints.
-
-## Demonstração do Projeto
-
-### Dados reais mostrados em gráficos e tabelas
-
-<p align="center">
-  <img src="./docs/alfalog/AlfalogGraficos.gif" />
-</p>
-
----
-
-## <img src="./docs/classipy/logoClassiPy.png" align="center" width="40"> ClassiPy - 2025 - 2º Semestre
-
-## Empresa Parceira
-O projeto foi desenvolvido em parceria com a **TecSys**, com atuação em Telecom e desenvolvimento de soluções para Telecom, Broadband, Broadcast, Embedded e Smart Grid, com foco em projetos sob medida. A empresa atuou como cliente externo, apresentando as necessidades reais do setor e validando as entregas da equipe a cada sprint, orientando o desenvolvimento de uma aplicação web voltada para a automação e padronização da classificação fiscal de produtos importados.
-
-## Problema
-A TecSys precisa importar componentes que não são fabricados nacionalmente para a produção de seus produtos e soluções customizadas. Nesse processo, a elaboração dos registros de importação e cadastros fiscais é altamente burocrática e suscetível a erros manuais. A rotina operacional exige a conferência detalhada de pedidos de compra em arquivos PDF para extrair e cruzar informações de cada produto, como Part Number, código NCM, descrição técnica, fabricante e país de origem. Por ser uma atividade manual e repetitiva, pequenas divergências ou omissões podem gerar inconsistências cadastrais, retenção de cargas pela Receita Federal, atrasos na cadeia de suprimentos e aplicação de multas.
-
-Para solucionar esse cenário, era necessária a criação de uma plataforma capaz de automatizar a leitura de documentos e sugerir a classificação fiscal dos produtos de forma inteligente, padronizando as informações e permitindo a exportação de dados estruturados para dar maior agilidade e segurança às operações aduaneiras.
-
-## Solução
-A equipe desenvolveu o **ClassiPy**, uma aplicação web voltada para a automação da classificação fiscal de produtos em processos de importação utilizando Inteligência Artificial. O sistema recebe documentos de compra em PDF, extrai automaticamente os Part Numbers dos itens e utiliza modelos de IA integrados para identificar e sugerir informações essenciais, como código NCM, descrição técnica, fabricante, país de origem e alíquota.
-
-Além da extração e classificação automática, a plataforma conta com uma interface intuitiva que permite ao usuário revisar, editar e validar manualmente as informações antes da confirmação. O sistema também oferece histórico de consultas com paginação, busca semântica com banco vetorial para aumentar a precisão das sugestões da IA e a exportação direta dos dados tratados em planilhas Excel formatadas no padrão exigido pela Receita Federal, reduzindo o tempo operacional e o risco de falhas nos registros aduaneiros.
-
-## Repositório no GitHub
-[ClassiPy (Bug Busters)](https://github.com/Bug-Busters-F/ClassiPy)
-
-## Tecnologias Utilizadas
-- **React e TypeScript:** Desenvolvimento da interface web da aplicação, com componentização e tipagem dos dados.
-- **Tailwind CSS:** Estilização da interface com foco em responsividade e padronização visual.
-- **Python e FastAPI:** Desenvolvimento da API, gerenciamento das rotas e processamento das requisições da aplicação.
-- **PostgreSQL:** Banco de dados relacional utilizado para armazenar e gerenciar os dados do sistema.
-- **ChromaDB:** Banco de dados vetorial utilizado para armazenar embeddings e realizar buscas semânticas.
-- **Ollama:** Integração e execução local dos modelos de Inteligência Artificial utilizados na classificação dos produtos.
-- **Git e GitHub:** Controle de versões do código e organização do fluxo de trabalho colaborativo da equipe.
-- **Slack:** Comunicação e alinhamento com o cliente.
-
-## Contribuições Pessoais
-No projeto, atuei como Product Owner (PO) e desenvolvedor (dev), participando tanto da definição e validação das necessidades do cliente quanto do desenvolvimento da aplicação.
-
-Como PO, fiquei responsável por estar em contato com o cliente e tirar dúvidas da equipe de desenvolvimento sobre o processo da TecSys, principalmente sobre o ciclo de transformar uma ordem de pedido em PDF, contendo os Part Numbers, em um arquivo Excel com as informações exigidas pela empresa. Também participei do levantamento das informações que deveriam ser obtidas de cada Part Number, ajudando a definir quais dados deveriam ser extraídos, processados e apresentados no resultado final. Além disso, acompanhei o andamento do projeto, dando feedback ao cliente e validando principalmente as telas e o fluxo da aplicação.
-
-Na parte de desenvolvimento, atuei principalmente no back-end com **Python e FastAPI**, trabalhando na criação do serviço de classificação dos Part Numbers, que inclui a integração com o **Ollama**, os ajustes de prompts e o tratamento dos caracteres retornados pela IA. Também desenvolvi as ferramentas de **web scraping**, incluindo melhorias na busca de informações dos produtos, mecanismos de retry para novas tentativas e redução de ruido nas informações extraidas.
-
-No front-end, utilizando **React, TypeScript e Tailwind CSS**, trabalhei em melhorias no retorno visual da aplicação para o usuário, incluindo mensagens de erro, notificações com toast e modais para determinadas interações.
-
-## Hard Skills
-- **Python e FastAPI:** Sei fazer com autonomia: desenvolvimento de APIs, criação de serviços, processamento de dados e organização das regras de negócio.
-- **Ollama:** Sei fazer com autonomia: integração de modelos de IA locais, criação/ajuste de prompts e tratamento das respostas geradas pelos modelos.
-- **Playwright e Web Scraping:** Sei fazer com autonomia: criação de rotinas para buscar informações de produtos na web com Playwright, tratamento dos resultados e implementação de mecanismos de retry quando uma busca não retorna os dados esperados.
-- **React e TypeScript:** Sei fazer com autonomia: criação e alteração de componentes, integração com as funcionalidades do sistema e tratamento das interações da interface.
-- **Tailwind CSS:** Sei fazer com autonomia: estilização de componentes e ajustes de layout da aplicação.
-- **PostgreSQL:** Sei fazer com ajuda: criação e alteração de estruturas do banco e integração dos dados utilizados pelos serviços da aplicação.
-- **Git e GitHub:** Sei fazer com autonomia: versionamento do código, criação de branches, abertura e acompanhamento de Pull Requests e integração das alterações da equipe.
-- **Metodologia Scrum:** Sei fazer com autonomia: participação no planejamento das sprints, acompanhamento das atividades e atuação como Product Owner durante o desenvolvimento.
-
-## Soft Skills
-- **Comunicação e Alinhamento:** Como Product Owner, mantive contato direto com a TecSys para entender o processo aduaneiro e repassar essas informações para o time de desenvolvimento. Muitas decisões sobre quais dados extrair dos Part Numbers e como estruturar o fluxo da aplicação foram definidas a partir dessas conversas, evitando que a equipe implementasse algo que não atendia a necessidade do cliente.
-
-- **Visão de Negócio:** Para conseguir definir os requisitos do sistema, tive que entender o processo de ponta a ponta: como os funcionários da TecSys trabalhavam com os PDFs, quais campos preenchiam manualmente, o que a Receita Federal exigia e onde estavam os maiores riscos de erro. Sem esse entendimento, não seria possível traduzir o processo em algo que a IA conseguisse automatizar.
-
-- **Resolução de Problemas:** Durante o desenvolvimento, as buscas nem sempre retornavam os dados esperados e as respostas da IA vinham com formatos inconsistentes. Trabalhei diretamente nesses casos, adicionando mecanismos de retry no scraping, ajustando os prompts para limpar os caracteres problemáticos e tratando os retornos da IA antes de salvar no banco.
-
-- **Tomada de Decisão:** Como PO, fui responsável por aprovar as telas e o fluxo da aplicação a cada entrega. Isso exigiu avaliar o que estava sendo desenvolvido com base no que o cliente tinha mostrado, decidindo se o resultado correspondia ao processo real da TecSys ou se precisava de ajuste antes da próxima sprint.
-
-- **Trabalho em Equipe e Colaboração:** Atuei em duas frentes ao longo do projeto (PO e desenvolvedor) o que exigiu transitar entre as decisões de produto e a implementação técnica.Isso exigiu proximidade com os outros integrantes, tanto para validar as entregas quanto para contribuir com código.
-
-## Demonstração do Projeto
-
-### Visão Geral da Aplicação
-
-<p align="center">
-  <img src="./docs/classipy/ClassiPyGeral.gif" />
-</p>
-
----
-
-## <img src="./docs/prodesk/logoProDesk.png" align="center" width="40"> ProDesk - 2026 - 1º Semestre  
-
-## Empresa Parceira
-O projeto foi desenvolvido em parceria com a **Pro4tech**, empresa que atua na área de tecnologia da informação, oferecendo soluções e serviços de suporte para empresas. A empresa participou do projeto como cliente, apresentando as necessidades relacionadas ao atendimento de suporte técnico e validando as entregas da equipe ao longo das sprints, simulando um cenário real de desenvolvimento de uma aplicação de Help Desk.
-
-## Problema
-O atendimento de suporte técnico pode se tornar difícil de organizar quando os chamados são registrados por diferentes canais, como mensagens, e-mails ou outros meios de comunicação. Sem um sistema centralizado, a equipe de TI pode ter dificuldade para acompanhar as solicitações, identificar suas prioridades e manter o histórico dos atendimentos.
-
-Além disso, a falta de uma ferramenta específica dificulta o acompanhamento do status dos chamados e a comunicação entre os usuários e a equipe responsável. Para solucionar esse cenário, era necessária uma plataforma que centralizasse essas informações e facilitasse o gerenciamento dos chamados desde sua abertura até a conclusão do atendimento.
-
-## Solução
-A equipe desenvolveu o **ProDesk**, uma aplicação mobile de Help Desk voltada para centralizar o registro e o acompanhamento de chamados de suporte técnico. A plataforma permite que os usuários registrem solicitações, acompanhem seu andamento e mantenham a comunicação com a equipe responsável pelo atendimento.
-
-O sistema também conta com funcionalidades para gerenciamento de usuários, autenticação, recuperação de senha, organização dos chamados e gerenciamento das informações dos atendimentos. A aplicação foi desenvolvida com foco em facilitar o controle das solicitações e melhorar a comunicação entre os usuários e a equipe de suporte.
-
-## Repositório no GitHub
-[ProDesk (Bug Busters)](https://github.com/Bug-Busters-F/ProDesk)
-
-## Tecnologias Utilizadas
-* **NestJS:** Desenvolvimento da API e implementação das regras de negócio.
-* **TypeScript:** Tipagem e desenvolvimento da aplicação.
-* **PostgreSQL:** Armazenamento e gerenciamento dos dados da aplicação.
-* **JWT:** Autenticação e controle de acesso dos usuários.
-* **Git e GitHub:** Controle de versões do código e colaboração entre os integrantes da equipe.
-* **Jira:** Gerenciamento das tarefas e acompanhamento das sprints.
-* **React Native:** Desenvolvimento da aplicação mobile.
+- **Ollama e ollama4j:** Execução local e integração de modelos multimodais de IA para leitura de caracteres em imagens.
+- **MySQL:** Banco de dados relacional para persistência de veículos, placas e histórico.
+- **Git e GitHub:** Controle de versão do código e fluxo colaborativo da equipe.
+- **Figma:** Prototipagem e planejamento visual das telas.
 
 ### Contribuições Pessoais
-No projeto, atuei como desenvolvedor full-stack, trabalhando principalmente no módulo de triagem dos chamados e nas funcionalidades relacionadas ao atendimento.
+No projeto, atuei como desenvolvedor, focando na integração dos modelos de Inteligência Artificial à aplicação e na implementação de funcionalidades do sistema.
 
-Minha principal atuação foi no desenvolvimento do módulo de triagem utilizando **NestJS** e **NLP.js**, para desenvolver o serviço responsável por analisar a descrição dos chamados e identificar a categoria mais adequada. Também desenvolvi o módulo responsavel pelas categorias, integrado ao **MongoDB**, permitindo cadastrar e gerenciar as informações utilizadas no treinamento da triagem. A classificação foi integrada ao fluxo de criação dos chamados, fazendo com que a categoria fosse definida automaticamente a partir da descrição informada pelo usuário.
+Minha principal atuação técnica foi conectar o **Ollama** à aplicação em **Java** utilizando a biblioteca **ollama4j**. Realizei testes práticos para avaliar e selecionar o modelo que apresentasse o melhor equilíbrio entre tempo de resposta e precisão na leitura das placas. Além disso, elaborei e refinei a engenharia de prompts enviada junto às imagens para garantir a extração dos caracteres no padrão exigido pelo banco de dados.
 
-Implementei o upload e envio de arquivos pelo chat. No back-end, com o módulo responsável pelo upload e armazenamento local dos arquivos, utilizando **Multer**, e integrando os anexos às mensagens do chat. No mobile, com a seleção de múltiplos arquivos e imagens, o envio dos anexos para a API e a exibição das imagens nas conversas, possibilitando visualização em tela cheia e zoom por gesto.
+Também atuei na interface gráfica com **Java Swing**, desenvolvendo a funcionalidade de busca com filtros para consulta de veículos cadastrados e auxiliando no ajuste de usabilidade e visual dos componentes da tela.
 
- Além disso, trabalhei com o escalonamento dos chamados por nível de atendimento (N1, N2 e N3). No back-end, alterando a lógica para persistir o nível de escalonamento do chamado, ajustando as entidades, casos de uso, controllers e testes usando **Jest** relacionados ao fluxo. Já no aplicativo mobile, usando **React Native**, eu adicionei a seleção e a identificação visual do nível de atendimento nas listagens e detalhes.
+### Hard Skills
+- **Ollama e ollama4j:** Sei fazer com autonomia: integração de modelos de IA locais ao Java, testes comparativos de modelos e engenharia de prompts.
+- **MySQL:** Sei fazer com autonomia: modelagem de tabelas e persistência de dados e registros.
+- **Git e GitHub:** Sei fazer com autonomia: versionamento de código, gerenciamento de branches e resolução de conflitos.
+- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa nas cerimônias ágeis, estimativas e entregas em sprints.
+- **Java:** Sei fazer com ajuda: desenvolvimento da lógica de negócio e integração de bibliotecas com apoio de documentação.
+- **Java Swing:** Sei fazer com ajuda: construção de telas, componentes gráficos e formulários de pesquisa.
 
-## Hard Skills
-- **NestJS e TypeScript:** Sei fazer com autonomia: desenvolvimento de módulos, APIs, services, controllers e regras de negócio.
-- **MongoDB e Mongoose:** Sei fazer com autonomia: criação de schemas, consultas e integração dos módulos com o banco de dados.
-- **Node-NLP:** Sei fazer com autonomia: criação de regras e treinamento para classificação automática de chamados.
-- **APIs REST:** Sei fazer com autonomia: criação de endpoints, DTOs, validações e integração entre os módulos da aplicação.
-- **React Native:** Sei fazer com autonomia: desenvolvimento de telas, componentes, integração com APIs e implementação de funcionalidades para a aplicação mobile.
-- **Testes(Jest):** Sei fazer com ajuda: criação de testes unitários e de integração para validar regras e endpoints.
-- **Git e GitHub:** Sei fazer com autonomia: criação de branches, Pull Requests, merges e resolução de conflitos.
-- **Swagger:** Sei fazer com autonomia: documentação e testes dos endpoints da API.
+### Soft Skills
+- **Pensamento Crítico e Análise:** Conduzi testes comparativos entre modelos de visão computacional, avaliando taxa de acerto na leitura, tempo de resposta e consumo de hardware local.
+- **Resolução de Problemas:** Tratei oscilações no retorno das respostas da IA, iterando nos prompts e criando validações no código até obter saídas consistentes para salvar no banco.
+- **Comunicação e Alinhamento:** Mantive contato frequente com o time para definir a estrutura dos dados extraídos pela IA, garantindo a integração correta com o banco e a interface.
+- **Trabalho em Equipe:** Atuei em conjunto com a equipe para conectar a camada de IA, a persistência no MySQL e a interface em Java Swing, mantendo o código sincronizado no repositório.
 
-## Soft Skills
-- **Pensamento Analítico:** Precisei entender como as categorias e os níveis de atendimento seriam utilizados no restante do sistema para definir a melhor forma de integrar a triagem e o escalonamento dos chamados, evitando inconsistências entre o back-end e o aplicativo mobile.
+### Demonstração do Projeto
 
-- **Comunicação e Alinhamento:** Mantive contato com a equipe durante o desenvolvimento das funcionalidades para alinhar mudanças nas regras dos chamados, categorias, níveis de atendimento e envio de arquivos, principalmente quando uma alteração no back-end afetava o funcionamento do aplicativo.
+#### Classificação por Modelo de IA Local
+<p align="center">
+  <img src="./docs/alplaca/AlplacaAI.gif" alt="Demonstração da IA no Alplaca" />
+</p>
 
-- **Organização:** Trabalhei com as funcionalidades separadas em branches e Pull Requests, mantendo as alterações organizadas e realizando a integração com a branch de desenvolvimento ao longo das sprints.
+#### Interface, Filtros de Busca e Edição
+<p align="center">
+  <img src="./docs/alplaca/AlplacaVisual.gif" alt="Demonstração da interface do Alplaca" />
+</p>
 
-- **Trabalho em Equipe e Colaboração:** Participei das revisões e integrações das funcionalidades desenvolvidas pela equipe, trabalhando principalmente na comunicação entre o back-end e o aplicativo mobile para garantir que os novos recursos fossem integrados corretamente.
+---
 
-## Demonstração do Projeto
+## <img src="./docs/alfalog/logoAlfalog.png" align="center" width="40"> Alfalog - 2025 - 1º Semestre
 
-### Visão Geral do Aplicativo Mobile
+### Empresa Parceira
+Projeto desenvolvido em parceria com a **FATEC São José dos Campos - Prof. Jessen Vidal**, com o professor Marcus Nascimento (coordenador do curso de Logística) atuando no papel de cliente. Ele apresentou as demandas analíticas do setor de comércio exterior e acompanhou a validação dos incrementos a cada sprint.
 
+### Problema
+Bases governamentais de comércio exterior brasileiro (como MDIC e Comex Stat) reúnem milhões de registros de importação e exportação em arquivos brutos, pesados e fragmentados. Esse formato dificulta análises ágeis, tornando a identificação de padrões comerciais, gargalos em rotas alfandegárias e a comparação de desempenho econômico entre estados e municípios um processo lento e manual para profissionais da área.
+
+### Solução
+Desenvolvemos a **Alfalog**, uma aplicação web focada em inteligência e visualização de dados de comércio exterior. A plataforma centraliza e estrutura esses grandes volumes de registros históricos em um banco de dados relacional, transformando tabelas densas em painéis analíticos com gráficos e tabelas interativas.
+
+O sistema conta com filtros dinâmicos por código NCM, estados, municípios, vias de transporte e períodos históricos (2014 a 2024), permitindo cruzar dados com rapidez e exportar relatórios customizados para apoiar o planejamento logístico e tomadas de decisão.
+
+### Repositório no GitHub
+- [Alfalog (Bug Busters)](https://github.com/Bug-Busters-F/Alfalog)
+
+### Tecnologias Utilizadas
+- **React e TypeScript:** Desenvolvimento da interface web, componentização dinâmica e consumo de dados da API.
+- **Tailwind CSS:** Estilização da interface com foco em responsividade e padronização visual.
+- **ApexCharts:** Construção dos gráficos interativos para séries temporais e volumes comerciais.
+- **Python (Flask):** Criação da API REST, gerenciamento de rotas e rotinas de processamento de dados (ETL).
+- **MySQL:** Armazenamento, estruturação e consulta otimizada de grandes volumes históricos.
+- **AWS:** Hospedagem da aplicação na nuvem.
+- **Git e GitHub:** Versionamento de código e fluxo de trabalho colaborativo.
+
+### Contribuições Pessoais
+No projeto, atuei como desenvolvedor full-stack, trabalhando tanto na construção das regras de negócio e rotas no back-end quanto na implementação de componentes e consumo de dados no front-end.
+
+No back-end, utilizando **Python (Flask)** e **MySQL**, fui o responsável por modelar a tabela de balança comercial vinculada às Unidades Federativas (UFs). Para automatizar o processamento dos dados históricos públicos do Comex Stat, desenvolvi rotinas via linha de comando (`flask comex update balanca`) que liam os arquivos brutos, calculavam o saldo comercial anual de cada estado (valor FOB de exportação menos FOB de importação) e salvavam os dados estruturados no banco. Além disso, criei as rotas da API em Flask usando blueprints para fornecer os dados dos gráficos (como contagem de uso das alfândegas/URFs e séries temporais anuais) e os endpoints para os cards de desempenho dos estados.
+
+No front-end, trabalhei com **React**, **TypeScript** e **Tailwind CSS**, desenvolvendo os componentes visuais dos cards de estados em alta e em queda integrados diretamente à API. Também atuei na refatoração da página de relatórios de dados, ajustando a exibição dos gráficos de barras e a descrição dos filtros. Para resolver problemas de compartilhamento de filtros entre componentes na exportação de relatórios, implementei a Context API do React com o `ExportContextProvider`, garantindo que os dados selecionados pelo usuário fossem repassados corretamente na geração dos arquivos.
+
+### Hard Skills
+- **Python (Flask):** Sei fazer com autonomia: criação de rotas e blueprints para APIs REST, desenvolvimento de comandos CLI para rotinas de ETL e cálculos comerciais.
+- **MySQL:** Sei fazer com autonomia: modelagem de tabelas relacionais, indexação e otimização de consultas para grandes bases históricas.
+- **React e TypeScript:** Sei fazer com autonomia: componentização reutilizável, tipagem de dados, consumo de APIs REST e gerenciamento de estado com Context API.
+- **Tailwind CSS:** Sei fazer com autonomia: estilização utilitária de interfaces responsivas para dashboards analíticos.
+- **Git e GitHub:** Sei fazer com autonomia: controle de versão, fluxo de branches, abertura de Pull Requests e resolução de conflitos.
+- **Metodologia Scrum:** Sei fazer com autonomia: participação ativa no planejamento de sprints, divisão técnica de tarefas e cumprimento de prazos.
+
+### Soft Skills
+- **Comunicação Técnica:** Mantive alinhamento constante com o time para definir os contratos de requisição e resposta em JSON da API, assegurando que os dados chegassem no formato correto para os componentes gráficos do front-end.
+- **Visão Sistêmica:** Conectei o fluxo completo da aplicação, desde a importação e cálculo dos dados brutos no Flask/MySQL até a renderização visual e exportação no React.
+- **Resolução de Problemas:** Identifiquei falhas no compartilhamento de filtros entre componentes isolados na exportação de relatórios e criei uma solução centralizada usando Context API.
+- **Trabalho em Equipe:** Participei ativamente das revisões de código em Pull Requests e apoiei colegas na resolução de conflitos de merge durante as sprints.
+
+### Demonstração do Projeto
+
+#### Dashboards, Gráficos e Tabelas Analíticas
+<p align="center">
+  <img src="./docs/alfalog/AlfalogGraficos.gif" alt="Demonstração dos gráficos da Alfalog" />
+</p>
+
+---
+
+## <img src="./docs/classipy/logoClassiPy.png" align="center" width="36"> ClassiPy - 2025 - 2º Semestre
+
+### Empresa Parceira
+Projeto desenvolvido em parceria com a **TecSys**, empresa especializada em soluções customizadas para telecomunicações, transmissão, sistemas embarcados e redes inteligentes. A empresa atuou como cliente externo, apresentando demandas reais dos seus processos de compras internacionais e validando as entregas a cada sprint.
+
+### Problema
+Para produzir equipamentos customizados, a TecSys importa componentes eletrônicos que não possuem fabricação nacional. A conferência dessas ordens de compra era realizada manualmente a partir de faturas e pedidos em PDF, onde a equipe precisava extrair códigos de peças (Part Numbers) e pesquisar dados fiscais como NCM, fabricante, país de origem e alíquotas. Por ser um processo manual e repetitivo, pequenos erros de digitação ou classificação podiam ocasionar atrasos aduaneiros, retenção de mercadorias pela Receita Federal e multas fiscais.
+
+### Solução
+Desenvolvemos o **ClassiPy**, uma plataforma web que utiliza inteligência artificial e automação web para acelerar e padronizar a classificação fiscal de componentes importados. O sistema recebe pedidos em PDF, faz a leitura dos itens, busca especificações técnicas na web e sugere o código NCM, fabricante, alíquota e descrição correspondente.
+
+A plataforma conta com uma interface para que o usuário revise, edite e valide as sugestões da IA antes de salvar. Além disso, utiliza busca vetorial com embeddings para melhorar a precisão das classificações ao longo do tempo e permite exportar os dados aprovados em planilhas Excel formatadas no padrão exigido pelas rotinas aduaneiras.
+
+### Repositório no GitHub
+- [ClassiPy (Bug Busters)](https://github.com/Bug-Busters-F/ClassiPy)
+
+### Tecnologias Utilizadas
+- **Python e FastAPI:** Construção da API REST, regras de negócio e processamento assíncrono.
+- **React e TypeScript:** Desenvolvimento da interface web, formulários e fluxos de validação.
+- **Tailwind CSS:** Estilização da interface com foco em consistência visual e responsividade.
+- **PostgreSQL:** Armazenamento relacional dos cadastros, histórico de consultas e dados dos produtos.
+- **ChromaDB:** Banco de dados vetorial para busca semântica e suporte à classificação por similaridade.
+- **Ollama:** Execução local de modelos de linguagem para enriquecimento e classificação dos dados.
+- **Playwright:** Automação de web scraping para busca de especificações técnicas de peças na web.
+- **Git e GitHub:** Controle de versão e colaboração do time.
+
+### Contribuições Pessoais
+No projeto, atuei em duas frentes: como Product Owner (PO) e desenvolvedor, participando tanto do alinhamento das necessidades do cliente quanto do desenvolvimento prático da aplicação.
+
+Como PO, mantive contato direto com o cliente para entender o fluxo operacional da TecSys, mapeando o processo de transformar pedidos em PDF contendo Part Numbers em planilhas com as informações fiscais exigidas pela Receita Federal. Participei do levantamento de requisitos, definindo quais dados deveriam ser extraídos e processados, além de conduzir as validações de telas e fluxo da aplicação a cada sprint.
+
+No desenvolvimento back-end, utilizando **Python e FastAPI**, trabalhei na criação do serviço de classificação dos Part Numbers integrado ao **Ollama**, elaborando os prompts e tratando as saídas da IA para normalizar as respostas. Também desenvolvi ferramentas de **web scraping** com **Playwright** para busca automatizada de informações de produtos, implementando mecanismos de retry e limpeza de ruídos nos dados extraídos.
+
+No front-end, utilizando **React**, **TypeScript** e **Tailwind CSS**, trabalhei em melhorias no retorno visual da aplicação para o usuário, incluindo mensagens de erro, notificações toast e modais para interações da interface.
+
+### Hard Skills
+- **Python e FastAPI:** Sei fazer com autonomia: desenvolvimento de APIs assíncronas, estruturação de serviços e regras de negócio.
+- **Ollama:** Sei fazer com autonomia: integração de LLMs locais, engenharia de prompts e sanitização de respostas para persistência.
+- **Playwright e Web Scraping:** Sei fazer com autonomia: criação de rotinas de coleta web, tratamento de dados brutos e estratégias de retry.
+- **React e TypeScript:** Sei fazer com autonomia: criação de componentes, tratamento de formulários e integração com APIs.
+- **Tailwind CSS:** Sei fazer com autonomia: estilização de componentes visuais e telas responsivas.
+- **Git e GitHub:** Sei fazer com autonomia: fluxo de branches, revisões em Pull Requests e integração contínua de código.
+- **Metodologia Scrum:** Sei fazer com autonomia: atuação como Product Owner, priorização de backlog e alinhamento de expectativas.
+- **PostgreSQL e ChromaDB:** Sei fazer com ajuda: modelagem relacional, persistência de dados e integração de buscas vetoriais.
+
+### Soft Skills
+- **Visão de Negócio:** Mapeei o processo aduaneiro da TecSys ponta a ponta para identificar quais dados dos PDFs eram obrigatórios pela Receita Federal, transformando essa necessidade operacional em requisitos de software.
+- **Comunicação com Stakeholders:** Facilitei o diálogo entre o cliente corporativo e a equipe técnica, garantindo que o escopo implementado resolvesse a dor real do processo de importação.
+- **Resolução de Problemas Técnicos:** Ajustei algoritmos de extração e prompts da IA para lidar com falhas de busca e respostas fora do padrão, assegurando que o sistema mantivesse a consistência dos dados gravados no banco.
+- **Tomada de Decisão:** Avaliei entregas intermediárias sob a ótica do cliente, decidindo ajustes prioritários de usabilidade e fluxo antes de avançar para novas funcionalidades.
+- **Trabalho em Equipe:** Transitei entre a visão de produto e o desenvolvimento técnico, mantendo proximidade diária com os outros integrantes para validar entregas e acelerar o código.
+
+### Demonstração do Projeto
+
+#### Visão Geral da Aplicação
+<p align="center">
+  <img src="./docs/classipy/ClassiPyGeral.gif" alt="Demonstração do ClassiPy" />
+</p>
+
+---
+
+## <img src="./docs/prodesk/logoProDesk.png" align="center" width="36"> ProDesk - 2026 - 1º Semestre
+
+### Empresa Parceira
+Projeto desenvolvido em parceria com a **Pro4tech**, empresa de tecnologia especializada em serviços e soluções de suporte corporativo. A empresa atuou como cliente, trazendo as necessidades operacionais de atendimento ao usuário e validando as entregas da equipe ao longo das sprints.
+
+### Problema
+Quando chamados de suporte técnico chegam de forma descentralizada (por e-mails, aplicativos de mensagens e contatos informais), a equipe de TI perde o controle de prioridades, prazos e histórico. Sem um sistema unificado, a triagem inicial torna-se lenta e manual, além de dificultar o acompanhamento do status do chamado pelo solicitante.
+
+### Solução
+Desenvolvemos o **ProDesk**, um aplicativo mobile de Help Desk voltado para centralizar o registro, a triagem inteligente e o acompanhamento de chamados de suporte técnico. Pela aplicação, os usuários podem abrir solicitações com descrições detalhadas e fotos, acompanhar o status em tempo real e conversar com a equipe de suporte via chat interno.
+
+O sistema conta com triagem automática orientada por Processamento de Linguagem Natural (NLP), sugerindo a categoria e o nível de atendimento adequado (N1, N2 e N3) com base no relato do usuário. A plataforma também dispõe de controle de perfis de usuário, autenticação segura com JWT e histórico completo dos atendimentos.
+
+### Repositório no GitHub
+- [ProDesk (Bug Busters)](https://github.com/Bug-Busters-F/ProDesk)
+
+### Tecnologias Utilizadas
+- **NestJS:** Construção da API modular, controllers, services e regras de negócio.
+- **TypeScript:** Tipagem estática e padronização do código no front-end e back-end.
+- **React Native:** Desenvolvimento do aplicativo mobile multiplataforma.
+- **PostgreSQL:** Armazenamento relacional dos dados principais de usuários e chamados.
+- **MongoDB e Mongoose:** Armazenamento flexível dos dados de triagem, categorias dinâmicas e mensagens de chat.
+- **Node-NLP / NLP.js:** Processamento de linguagem natural para classificação automática dos chamados.
+- **JWT (JSON Web Token):** Autenticação e controle de níveis de acesso.
+- **Multer:** Tratamento de upload e armazenamento de anexos e imagens.
+- **Jest:** Criação de testes unitários para casos de uso e rotas.
+- **Git e GitHub:** Controle de versão e colaboração em equipe.
+- **Jira:** Gestão de backlog e acompanhamento das sprints.
+
+### Contribuições Pessoais
+No projeto, atuei como desenvolvedor full-stack, trabalhando principalmente no módulo de triagem dos chamados e em funcionalidades essenciais do atendimento.
+
+Minha principal atuação técnica foi no desenvolvimento do módulo de triagem utilizando **NestJS** e **NLP.js**, criando o serviço responsável por analisar a descrição textual dos chamados e sugerir a categoria automaticamente. Também desenvolvi o módulo de categorias integrado ao **MongoDB**, permitindo cadastrar e gerenciar dinamicamente as informações utilizadas no treinamento da IA.
+
+Implementei a funcionalidade de envio e visualização de arquivos no chat. No back-end, desenvolvi o upload e armazenamento local com **Multer**, vinculando os anexos às mensagens. No aplicativo mobile em **React Native**, desenvolvi o fluxo de seleção múltipla de arquivos e fotos, o envio para a API e a exibição das imagens nas conversas com suporte a zoom por gesto e visualização em tela cheia.
+
+Também atuei no escalonamento dos chamados por nível de atendimento (N1, N2 e N3). No back-end, ajustei a lógica para persistir o nível de suporte, atualizando entidades, casos de uso, controllers e testes unitários em **Jest**. No aplicativo mobile, implementei a seleção e os indicadores visuais desses níveis nas telas de listagem e detalhes do chamado.
+
+### Hard Skills
+- **NestJS e TypeScript:** Sei fazer com autonomia: desenvolvimento de módulos, controllers, services, DTOs e regras de negócio.
+- **MongoDB e Mongoose:** Sei fazer com autonomia: modelagem de schemas, consultas e persistência de dados de triagem e chat.
+- **Node-NLP:** Sei fazer com autonomia: treinamento de modelos e classificação automática de textos.
+- **APIs REST:** Sei fazer com autonomia: criação de endpoints, validações de dados e integração entre módulos.
+- **React Native:** Sei fazer com autonomia: desenvolvimento de telas, componentes, consumo de APIs e upload de mídia.
+- **Git e GitHub:** Sei fazer com autonomia: fluxo de branches, abertura de Pull Requests e resolução de conflitos.
+- **Swagger:** Sei fazer com autonomia: documentação interativa dos endpoints da API.
+- **Jest:** Sei fazer com ajuda: criação de testes unitários e de integração para validar regras e fluxos.
+
+### Soft Skills
+- **Pensamento Analítico:** Planejei como a triagem por NLP e os níveis de atendimento (N1/N2/N3) se integrariam no fluxo geral do sistema, mantendo a coerência entre o back-end e o aplicativo.
+- **Comunicação e Alinhamento:** Alinhei alterações de regras, rotas de anexos e categorias diretamente com o time, garantindo que atualizações no back-end não causassem quebras no app mobile.
+- **Organização:** Estruturei as tarefas em branches temáticas no Git e acompanhei as entregas no Jira, mantendo o histórico de commits claro e organizado.
+- **Trabalho em Equipe:** Participei das revisões de código e apoiei os colegas na conexão entre a API NestJS e as telas em React Native.
+
+### Demonstração do Projeto
+
+#### Visão Geral do Aplicativo Mobile
 https://github.com/user-attachments/assets/fd7f947f-8513-49a3-aca5-db2ecd8eb0c0
 
 ---
 
-## <img src="./docs/" align="center" width="40"> A definir - 2026 - 2º Semestre
+## Projeto Futuro - 2026 - 2º Semestre
 
-## Empresa Parceira
-O projeto está sendo desenvolvido em parceria com a **Dom Rock**, empresa que atua com soluções baseadas em dados e Inteligência Artificial. O desafio proposto envolve o desenvolvimento de uma aplicação para auxiliar empresas na definição, análise e gerenciamento de regras de negócio, utilizando técnicas de Engenharia de Software assistida por IA.
+### Empresa Parceira
+Projeto em andamento em parceria com a **Dom Rock**, empresa de tecnologia focada em soluções orientadas a dados e Inteligência Artificial.
 
-## Problema
-Empresas trabalham com diversas regras de negócio que precisam ser alteradas conforme novos produtos são lançados, produtos são descontinuados, preços são modificados ou novos acordos comerciais são estabelecidos. Como essas regras mudam constantemente, manter esse conhecimento organizado e garantir que as alterações não entrem em conflito com regras existentes pode se tornar um processo complexo.
+### Contexto e Desafio
+Empresas lidam com regras de negócio e políticas comerciais que mudam continuamente com o lançamento ou término de produtos, alterações de preços, promoções e novas parcerias comerciais. Como essas regras envolvem múltiplos parâmetros (canais de venda, produtos, categorias, regiões e vigências), ajustes manuais frequentes podem gerar inconsistências operacionais ou conflitos difíceis de identificar.
 
-Nesse cenário, a definição de campanhas e políticas comerciais pode envolver diferentes parâmetros, como canal de venda, produto, equipe e período de validade. Uma alteração aparentemente simples pode afetar outras regras e gerar inconsistências na operação. Por isso, o desafio consiste em desenvolver uma aplicação capaz de utilizar Inteligência Artificial para auxiliar na definição, ajuste, simulação e validação dessas regras, mantendo o usuário no controle das decisões.
+O objetivo do projeto é desenvolver uma solução assistida por Inteligência Artificial que apoie analistas e gestores na definição, simulação e validação de regras de negócio antes de sua aplicação prática, mantendo o controle das decisões nas mãos do usuário.
 
-## Solução
-
-## Repositório no GitHub
-[A definir (Bug Busters)](https://github.com/Bug-Busters-F/)
-
-## Tecnologias Utilizadas
-
-## Contribuições Pessoais
-
-## Hard Skills
-
-## Soft Skills
+### Repositório no GitHub
+- [Bug Busters (Repositório da Equipe)](https://github.com/Bug-Busters-F/)
